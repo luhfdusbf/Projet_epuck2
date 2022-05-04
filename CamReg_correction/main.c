@@ -6,34 +6,23 @@
 #include "ch.h"
 #include "hal.h"
 #include "memory_protection.h"
-#include <usbcfg.h>
+//#include <usbcfg.h>
 #include <main.h>
 #include <motors.h>
 #include <camera/po8030.h>
-#include <chprintf.h>
+//#include <chprintf.h>
 
 #include <color.h>
 
 #include <distance.h>
 #include <moteur.h>
-#include <i2c_bus.h>
+//#include <i2c_bus.h>
 #include "msgbus\messagebus.h"
 #include "motors.h"
-#include "sensors\proximity.h"
+//#include "sensors\proximity.h"
 #include "sensors\VL53L0X\VL53L0X.h"
 #include <chmtx.h>
 #include "leds.h"
-
-//#define BLACK				0
-//#define RED					1
-//#define GREEN				2
-//#define BLUE				3
-//#define DISTANCE_TRESHOLD 	40
-//#define RIGHT 				0
-//#define LEFT				1
-//#define NB_STEP_EACH_TURN	4
-
-
 
 void leds_on(){
 	set_led(LED3,1);
@@ -66,6 +55,7 @@ int main(void)
 	//stars the threads (distance and color measure)
 	distance_start();
 	color_start();
+	stop_detection_start();
 
 	//global variables initialisation
 	bool wall_detected=FALSE;
@@ -96,6 +86,9 @@ int main(void)
         	leds_on();
         	set_body_led(1);
         	while(TRUE){	//infinite loop
+        		leds_off();
+        		chThdSleepMilliseconds(1000);
+        		leds_on();
         		chThdSleepMilliseconds(1000);
         	}
         }
@@ -105,7 +98,7 @@ int main(void)
         	step_left = step_left - 1;
         }
         else{
-        	//NEXT PLAYER TURN
+        	//NEXT PLAYER TURN/BLACK WALL DETECTED
         	step_left = 0;
             stop();
         	leds_on();

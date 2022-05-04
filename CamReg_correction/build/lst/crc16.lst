@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccw93guQ.s 			page 1
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccta6hMz.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccw93guQ.s 			page 1
   55              	.LBE2:
   56              		.loc 1 11 0
   57 0012 0DD0     		beq	.L13
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccw93guQ.s 			page 2
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccta6hMz.s 			page 2
 
 
   58              	.LVL4:
@@ -115,10 +115,10 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccw93guQ.s 			page 1
  109              		.size	crc16, .-crc16
  110              		.text
  111              	.Letext0:
- 112              		.file 2 "c:\\users\\noeta\\downloads\\eclipse_e-puck2\\tools\\gcc-arm-none-eabi-7-2017-q4-major-wi
- 113              		.file 3 "c:\\users\\noeta\\downloads\\eclipse_e-puck2\\tools\\gcc-arm-none-eabi-7-2017-q4-major-wi
- 114              		.file 4 "c:\\users\\noeta\\downloads\\eclipse_e-puck2\\tools\\gcc-arm-none-eabi-7-2017-q4-major-wi
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccw93guQ.s 			page 3
+ 112              		.file 2 "c:\\robotique\\eclipse_e-puck2\\tools\\gcc-arm-none-eabi-7-2017-q4-major-win32\\arm-none-
+ 113              		.file 3 "c:\\robotique\\eclipse_e-puck2\\tools\\gcc-arm-none-eabi-7-2017-q4-major-win32\\arm-none-
+ 114              		.file 4 "c:\\robotique\\eclipse_e-puck2\\tools\\gcc-arm-none-eabi-7-2017-q4-major-win32\\lib\\gcc\
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccta6hMz.s 			page 3
 
 
  115              		.section	.debug_info,"",%progbits
@@ -128,17 +128,17 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccw93guQ.s 			page 1
  119 0006 00000000 		.4byte	.Ldebug_abbrev0
  120 000a 04       		.byte	0x4
  121 000b 01       		.uleb128 0x1
- 122 000c A2000000 		.4byte	.LASF18
+ 122 000c D7000000 		.4byte	.LASF18
  123 0010 0C       		.byte	0xc
- 124 0011 11000000 		.4byte	.LASF19
- 125 0015 20020000 		.4byte	.LASF20
+ 124 0011 50000000 		.4byte	.LASF19
+ 125 0015 11000000 		.4byte	.LASF20
  126 0019 18000000 		.4byte	.Ldebug_ranges0+0x18
  127 001d 00000000 		.4byte	0
  128 0021 00000000 		.4byte	.Ldebug_line0
  129 0025 02       		.uleb128 0x2
  130 0026 01       		.byte	0x1
  131 0027 06       		.byte	0x6
- 132 0028 7B020000 		.4byte	.LASF0
+ 132 0028 83020000 		.4byte	.LASF0
  133 002c 03       		.uleb128 0x3
  134 002d 00000000 		.4byte	.LASF3
  135 0031 02       		.byte	0x2
@@ -147,38 +147,38 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccw93guQ.s 			page 1
  138 0037 02       		.uleb128 0x2
  139 0038 01       		.byte	0x1
  140 0039 08       		.byte	0x8
- 141 003a 49000000 		.4byte	.LASF1
+ 141 003a 88000000 		.4byte	.LASF1
  142 003e 02       		.uleb128 0x2
  143 003f 02       		.byte	0x2
  144 0040 05       		.byte	0x5
- 145 0041 98000000 		.4byte	.LASF2
+ 145 0041 55020000 		.4byte	.LASF2
  146 0045 03       		.uleb128 0x3
- 147 0046 8D000000 		.4byte	.LASF4
+ 147 0046 CC000000 		.4byte	.LASF4
  148 004a 02       		.byte	0x2
  149 004b 39       		.byte	0x39
  150 004c 50000000 		.4byte	0x50
  151 0050 02       		.uleb128 0x2
  152 0051 02       		.byte	0x2
  153 0052 07       		.byte	0x7
- 154 0053 69000000 		.4byte	.LASF5
+ 154 0053 A8000000 		.4byte	.LASF5
  155 0057 02       		.uleb128 0x2
  156 0058 04       		.byte	0x4
  157 0059 05       		.byte	0x5
- 158 005a 66020000 		.4byte	.LASF6
+ 158 005a 6E020000 		.4byte	.LASF6
  159 005e 02       		.uleb128 0x2
  160 005f 04       		.byte	0x4
  161 0060 07       		.byte	0x7
- 162 0061 57000000 		.4byte	.LASF7
+ 162 0061 96000000 		.4byte	.LASF7
  163 0065 02       		.uleb128 0x2
  164 0066 08       		.byte	0x8
  165 0067 05       		.byte	0x5
- 166 0068 12020000 		.4byte	.LASF8
+ 166 0068 47020000 		.4byte	.LASF8
  167 006c 02       		.uleb128 0x2
  168 006d 08       		.byte	0x8
  169 006e 07       		.byte	0x7
- 170 006f F3010000 		.4byte	.LASF9
+ 170 006f 28020000 		.4byte	.LASF9
  171 0073 04       		.uleb128 0x4
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccw93guQ.s 			page 4
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccta6hMz.s 			page 4
 
 
  172 0074 04       		.byte	0x4
@@ -187,14 +187,14 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccw93guQ.s 			page 1
  175 007a 02       		.uleb128 0x2
  176 007b 04       		.byte	0x4
  177 007c 07       		.byte	0x7
- 178 007d E6010000 		.4byte	.LASF10
+ 178 007d 1B020000 		.4byte	.LASF10
  179 0081 03       		.uleb128 0x3
- 180 0082 0A020000 		.4byte	.LASF11
+ 180 0082 3F020000 		.4byte	.LASF11
  181 0086 03       		.byte	0x3
  182 0087 18       		.byte	0x18
  183 0088 2C000000 		.4byte	0x2c
  184 008c 03       		.uleb128 0x3
- 185 008d 57020000 		.4byte	.LASF12
+ 185 008d 5F020000 		.4byte	.LASF12
  186 0091 03       		.byte	0x3
  187 0092 24       		.byte	0x24
  188 0093 45000000 		.4byte	0x45
@@ -206,9 +206,9 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccw93guQ.s 			page 1
  194 00a2 02       		.uleb128 0x2
  195 00a3 08       		.byte	0x8
  196 00a4 04       		.byte	0x4
- 197 00a5 6F020000 		.4byte	.LASF14
+ 197 00a5 77020000 		.4byte	.LASF14
  198 00a9 05       		.uleb128 0x5
- 199 00aa 60020000 		.4byte	.LASF21
+ 199 00aa 68020000 		.4byte	.LASF21
  200 00ae 01       		.byte	0x1
  201 00af 07       		.byte	0x7
  202 00b0 8C000000 		.4byte	0x8c
@@ -218,19 +218,19 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccw93guQ.s 			page 1
  206 00bd 9C       		.byte	0x9c
  207 00be 2C010000 		.4byte	0x12c
  208 00c2 06       		.uleb128 0x6
- 209 00c3 3F000000 		.4byte	.LASF15
+ 209 00c3 7E000000 		.4byte	.LASF15
  210 00c7 01       		.byte	0x1
  211 00c8 07       		.byte	0x7
  212 00c9 8C000000 		.4byte	0x8c
  213 00cd 00000000 		.4byte	.LLST0
  214 00d1 06       		.uleb128 0x6
- 215 00d2 44000000 		.4byte	.LASF16
+ 215 00d2 83000000 		.4byte	.LASF16
  216 00d6 01       		.byte	0x1
  217 00d7 07       		.byte	0x7
  218 00d8 2C010000 		.4byte	0x12c
  219 00dc 21000000 		.4byte	.LLST1
  220 00e0 06       		.uleb128 0x6
- 221 00e1 87020000 		.4byte	.LASF17
+ 221 00e1 8F020000 		.4byte	.LASF17
  222 00e5 01       		.byte	0x1
  223 00e6 07       		.byte	0x7
  224 00e7 97000000 		.4byte	0x97
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccw93guQ.s 			page 1
  226 00ef 07       		.uleb128 0x7
  227 00f0 7000     		.ascii	"p\000"
  228 00f2 01       		.byte	0x1
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccw93guQ.s 			page 5
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccta6hMz.s 			page 5
 
 
  229 00f3 09       		.byte	0x9
@@ -272,8 +272,8 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccw93guQ.s 			page 1
  257 0134 04       		.byte	0x4
  258 0135 81000000 		.4byte	0x81
  259 0139 0C       		.uleb128 0xc
- 260 013a 7C000000 		.4byte	.LASF22
- 261 013e 7C000000 		.4byte	.LASF22
+ 260 013a BB000000 		.4byte	.LASF22
+ 261 013e BB000000 		.4byte	.LASF22
  262 0142 00       		.byte	0
  263              		.section	.debug_abbrev,"",%progbits
  264              	.Ldebug_abbrev0:
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccw93guQ.s 			page 1
  283 0012 00       		.byte	0
  284 0013 02       		.uleb128 0x2
  285 0014 24       		.uleb128 0x24
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccw93guQ.s 			page 6
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccta6hMz.s 			page 6
 
 
  286 0015 00       		.byte	0
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccw93guQ.s 			page 1
  340 004b 9742     		.uleb128 0x2117
  341 004d 19       		.uleb128 0x19
  342 004e 01       		.uleb128 0x1
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccw93guQ.s 			page 7
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccta6hMz.s 			page 7
 
 
  343 004f 13       		.uleb128 0x13
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccw93guQ.s 			page 1
  397 0087 0B       		.uleb128 0xb
  398 0088 0B       		.uleb128 0xb
  399 0089 49       		.uleb128 0x49
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccw93guQ.s 			page 8
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccta6hMz.s 			page 8
 
 
  400 008a 13       		.uleb128 0x13
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccw93guQ.s 			page 1
  454 0046 08000000 		.4byte	.LVL1
  455 004a 0100     		.2byte	0x1
  456 004c 52       		.byte	0x52
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccw93guQ.s 			page 9
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccta6hMz.s 			page 9
 
 
  457 004d 08000000 		.4byte	.LVL1
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccw93guQ.s 			page 1
  511 00c8 00000000 		.4byte	0
  512              	.LLST5:
  513 00cc 1C000000 		.4byte	.LVL6
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccw93guQ.s 			page 10
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccta6hMz.s 			page 10
 
 
  514 00d0 28000000 		.4byte	.LVL8
@@ -592,13 +592,13 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccw93guQ.s 			page 1
  562 0024 00000000 		.4byte	0
  563              		.section	.debug_line,"",%progbits
  564              	.Ldebug_line0:
- 565 0000 F5010000 		.section	.debug_str,"MS",%progbits,1
- 565      0200D201 
+ 565 0000 D1010000 		.section	.debug_str,"MS",%progbits,1
+ 565      0200AE01 
  565      00000201 
  565      FB0E0D00 
  565      01010101 
  566              	.LASF3:
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccw93guQ.s 			page 11
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccta6hMz.s 			page 11
 
 
  567 0000 5F5F7569 		.ascii	"__uint8_t\000"
@@ -607,150 +607,152 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccw93guQ.s 			page 1
  568              	.LASF13:
  569 000a 73697A65 		.ascii	"size_t\000"
  569      5F7400
- 570              	.LASF19:
- 571 0011 2E2E2F6C 		.ascii	"../lib/e-puck2_main-processor/src/crc/crc16.c\000"
- 571      69622F65 
- 571      2D707563 
- 571      6B325F6D 
- 571      61696E2D 
- 572              	.LASF15:
- 573 003f 696E6974 		.ascii	"init\000"
- 573      00
- 574              	.LASF16:
- 575 0044 64617461 		.ascii	"data\000"
- 575      00
- 576              	.LASF1:
- 577 0049 756E7369 		.ascii	"unsigned char\000"
- 577      676E6564 
- 577      20636861 
- 577      7200
- 578              	.LASF7:
- 579 0057 6C6F6E67 		.ascii	"long unsigned int\000"
- 579      20756E73 
- 579      69676E65 
- 579      6420696E 
- 579      7400
- 580              	.LASF5:
- 581 0069 73686F72 		.ascii	"short unsigned int\000"
- 581      7420756E 
- 581      7369676E 
- 581      65642069 
- 581      6E7400
- 582              	.LASF22:
- 583 007c 5F5F7374 		.ascii	"__stack_chk_fail\000"
- 583      61636B5F 
- 583      63686B5F 
- 583      6661696C 
- 583      00
- 584              	.LASF4:
- 585 008d 5F5F7569 		.ascii	"__uint16_t\000"
- 585      6E743136 
- 585      5F7400
- 586              	.LASF2:
- 587 0098 73686F72 		.ascii	"short int\000"
- 587      7420696E 
- 587      7400
- 588              	.LASF18:
- 589 00a2 474E5520 		.ascii	"GNU C11 7.2.1 20170904 (release) [ARM/embedded-7-br"
- 589      43313120 
- 589      372E322E 
- 589      31203230 
- 589      31373039 
- 590 00d5 616E6368 		.ascii	"anch revision 255204] -mcpu=cortex-m4 -mfloat-abi=h"
- 590      20726576 
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccw93guQ.s 			page 12
+ 570              	.LASF20:
+ 571 0011 433A5C55 		.ascii	"C:\\Users\\antoi\\OneDrive\\Bureau\\Projet_epuck2\\"
+ 571      73657273 
+ 571      5C616E74 
+ 571      6F695C4F 
+ 571      6E654472 
+ 572 003e 43616D52 		.ascii	"CamReg_correction\000"
+ 572      65675F63 
+ 572      6F727265 
+ 572      6374696F 
+ 572      6E00
+ 573              	.LASF19:
+ 574 0050 2E2E2F6C 		.ascii	"../lib/e-puck2_main-processor/src/crc/crc16.c\000"
+ 574      69622F65 
+ 574      2D707563 
+ 574      6B325F6D 
+ 574      61696E2D 
+ 575              	.LASF15:
+ 576 007e 696E6974 		.ascii	"init\000"
+ 576      00
+ 577              	.LASF16:
+ 578 0083 64617461 		.ascii	"data\000"
+ 578      00
+ 579              	.LASF1:
+ 580 0088 756E7369 		.ascii	"unsigned char\000"
+ 580      676E6564 
+ 580      20636861 
+ 580      7200
+ 581              	.LASF7:
+ 582 0096 6C6F6E67 		.ascii	"long unsigned int\000"
+ 582      20756E73 
+ 582      69676E65 
+ 582      6420696E 
+ 582      7400
+ 583              	.LASF5:
+ 584 00a8 73686F72 		.ascii	"short unsigned int\000"
+ 584      7420756E 
+ 584      7369676E 
+ 584      65642069 
+ 584      6E7400
+ 585              	.LASF22:
+ 586 00bb 5F5F7374 		.ascii	"__stack_chk_fail\000"
+ 586      61636B5F 
+ 586      63686B5F 
+ 586      6661696C 
+ 586      00
+ 587              	.LASF4:
+ 588 00cc 5F5F7569 		.ascii	"__uint16_t\000"
+ 588      6E743136 
+ 588      5F7400
+ 589              	.LASF18:
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccta6hMz.s 			page 12
 
 
- 590      6973696F 
- 590      6E203235 
- 590      35323034 
- 591 0108 61726420 		.ascii	"ard -mfpu=fpv4-sp-d16 -mno-thumb-interwork -mthumb "
- 591      2D6D6670 
- 591      753D6670 
- 591      76342D73 
- 591      702D6431 
- 592 013b 2D676764 		.ascii	"-ggdb -O2 -fomit-frame-pointer -falign-functions=16"
- 592      62202D4F 
- 592      32202D66 
- 592      6F6D6974 
- 592      2D667261 
- 593 016e 202D666E 		.ascii	" -fno-strict-aliasing -fstack-protector-all -ffunct"
- 593      6F2D7374 
- 593      72696374 
- 593      2D616C69 
- 593      6173696E 
- 594 01a1 696F6E2D 		.ascii	"ion-sections -fdata-sections -fno-common -fsingle-p"
- 594      73656374 
- 594      696F6E73 
- 594      202D6664 
- 594      6174612D 
- 595 01d4 72656369 		.ascii	"recision-constant\000"
- 595      73696F6E 
- 595      2D636F6E 
- 595      7374616E 
- 595      7400
- 596              	.LASF10:
- 597 01e6 756E7369 		.ascii	"unsigned int\000"
- 597      676E6564 
- 597      20696E74 
- 597      00
- 598              	.LASF9:
- 599 01f3 6C6F6E67 		.ascii	"long long unsigned int\000"
- 599      206C6F6E 
- 599      6720756E 
- 599      7369676E 
- 599      65642069 
- 600              	.LASF11:
- 601 020a 75696E74 		.ascii	"uint8_t\000"
- 601      385F7400 
- 602              	.LASF8:
- 603 0212 6C6F6E67 		.ascii	"long long int\000"
- 603      206C6F6E 
- 603      6720696E 
- 603      7400
- 604              	.LASF20:
- 605 0220 433A5C55 		.ascii	"C:\\Users\\noeta\\Desktop\\TPs robotique\\CamReg_co"
- 605      73657273 
- 605      5C6E6F65 
- 605      74615C44 
- 605      65736B74 
- 606 024e 72726563 		.ascii	"rrection\000"
- 606      74696F6E 
- 606      00
+ 590 00d7 474E5520 		.ascii	"GNU C11 7.2.1 20170904 (release) [ARM/embedded-7-br"
+ 590      43313120 
+ 590      372E322E 
+ 590      31203230 
+ 590      31373039 
+ 591 010a 616E6368 		.ascii	"anch revision 255204] -mcpu=cortex-m4 -mfloat-abi=h"
+ 591      20726576 
+ 591      6973696F 
+ 591      6E203235 
+ 591      35323034 
+ 592 013d 61726420 		.ascii	"ard -mfpu=fpv4-sp-d16 -mno-thumb-interwork -mthumb "
+ 592      2D6D6670 
+ 592      753D6670 
+ 592      76342D73 
+ 592      702D6431 
+ 593 0170 2D676764 		.ascii	"-ggdb -O2 -fomit-frame-pointer -falign-functions=16"
+ 593      62202D4F 
+ 593      32202D66 
+ 593      6F6D6974 
+ 593      2D667261 
+ 594 01a3 202D666E 		.ascii	" -fno-strict-aliasing -fstack-protector-all -ffunct"
+ 594      6F2D7374 
+ 594      72696374 
+ 594      2D616C69 
+ 594      6173696E 
+ 595 01d6 696F6E2D 		.ascii	"ion-sections -fdata-sections -fno-common -fsingle-p"
+ 595      73656374 
+ 595      696F6E73 
+ 595      202D6664 
+ 595      6174612D 
+ 596 0209 72656369 		.ascii	"recision-constant\000"
+ 596      73696F6E 
+ 596      2D636F6E 
+ 596      7374616E 
+ 596      7400
+ 597              	.LASF10:
+ 598 021b 756E7369 		.ascii	"unsigned int\000"
+ 598      676E6564 
+ 598      20696E74 
+ 598      00
+ 599              	.LASF9:
+ 600 0228 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 600      206C6F6E 
+ 600      6720756E 
+ 600      7369676E 
+ 600      65642069 
+ 601              	.LASF11:
+ 602 023f 75696E74 		.ascii	"uint8_t\000"
+ 602      385F7400 
+ 603              	.LASF8:
+ 604 0247 6C6F6E67 		.ascii	"long long int\000"
+ 604      206C6F6E 
+ 604      6720696E 
+ 604      7400
+ 605              	.LASF2:
+ 606 0255 73686F72 		.ascii	"short int\000"
+ 606      7420696E 
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccta6hMz.s 			page 13
+
+
+ 606      7400
  607              	.LASF12:
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccw93guQ.s 			page 13
-
-
- 608 0257 75696E74 		.ascii	"uint16_t\000"
+ 608 025f 75696E74 		.ascii	"uint16_t\000"
  608      31365F74 
  608      00
  609              	.LASF21:
- 610 0260 63726331 		.ascii	"crc16\000"
+ 610 0268 63726331 		.ascii	"crc16\000"
  610      3600
  611              	.LASF6:
- 612 0266 6C6F6E67 		.ascii	"long int\000"
+ 612 026e 6C6F6E67 		.ascii	"long int\000"
  612      20696E74 
  612      00
  613              	.LASF14:
- 614 026f 6C6F6E67 		.ascii	"long double\000"
+ 614 0277 6C6F6E67 		.ascii	"long double\000"
  614      20646F75 
  614      626C6500 
  615              	.LASF0:
- 616 027b 7369676E 		.ascii	"signed char\000"
+ 616 0283 7369676E 		.ascii	"signed char\000"
  616      65642063 
  616      68617200 
  617              	.LASF17:
- 618 0287 6C656E67 		.ascii	"length\000"
+ 618 028f 6C656E67 		.ascii	"length\000"
  618      746800
  619              		.ident	"GCC: (GNU Tools for Arm Embedded Processors 7-2017-q4-major) 7.2.1 20170904 (release) [ARM
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccw93guQ.s 			page 14
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccta6hMz.s 			page 14
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 crc16.c
-C:\Users\noeta\AppData\Local\Temp\ccw93guQ.s:18     .text.crc16:00000000 $t
-C:\Users\noeta\AppData\Local\Temp\ccw93guQ.s:26     .text.crc16:00000000 crc16
-C:\Users\noeta\AppData\Local\Temp\ccw93guQ.s:106    .text.crc16:00000040 $d
+C:\Users\antoi\AppData\Local\Temp\ccta6hMz.s:18     .text.crc16:00000000 $t
+C:\Users\antoi\AppData\Local\Temp\ccta6hMz.s:26     .text.crc16:00000000 crc16
+C:\Users\antoi\AppData\Local\Temp\ccta6hMz.s:106    .text.crc16:00000040 $d
 
 UNDEFINED SYMBOLS
 __stack_chk_fail

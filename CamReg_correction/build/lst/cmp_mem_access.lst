@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
   55              	.LVL3:
   56              	.L5:
   57              		.cfi_restore_state
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 2
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s 			page 2
 
 
   58 001a FFF7FEFF 		bl	__stack_chk_fail
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  112              		.loc 1 26 0
  113 0018 019A     		ldr	r2, [sp, #4]
  114 001a 3368     		ldr	r3, [r6]
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 3
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s 			page 3
 
 
  115 001c 9A42     		cmp	r2, r3
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  169              		.cfi_offset 6, -12
  170              		.cfi_offset 7, -8
  171              		.cfi_offset 14, -4
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 4
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s 			page 4
 
 
  172              		.loc 1 6 0
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  226 003c FFF7FEFF 		bl	__stack_chk_fail
  227              	.LVL21:
  228              	.L25:
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 5
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s 			page 5
 
 
  229              		.align	2
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  283              		.loc 1 42 0
  284 001e 02B0     		add	sp, sp, #8
  285              		.cfi_remember_state
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 6
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s 			page 6
 
 
  286              		.cfi_def_cfa_offset 16
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  340 000a 0196     		str	r6, [sp, #4]
  341              		.loc 1 46 0
  342 000c 0A60     		str	r2, [r1]
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 7
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s 			page 7
 
 
  343              		.loc 1 49 0
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  397              		.cfi_startproc
  398              		@ args = 0, pretend = 0, frame = 8
  399              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 8
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s 			page 8
 
 
  400              	.LVL32:
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  454 0002 074B     		ldr	r3, .L50
  455              		.loc 1 59 0
  456 0004 4160     		str	r1, [r0, #4]
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 9
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s 			page 9
 
 
  457              		.loc 1 58 0
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  511              		.loc 1 65 0
  512 000a 0844     		add	r0, r0, r1
  513              		.loc 1 63 0
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 10
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s 			page 10
 
 
  514 000c 0192     		str	r2, [sp, #4]
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  568 000e 019A     		ldr	r2, [sp, #4]
  569 0010 1B68     		ldr	r3, [r3]
  570 0012 94BF     		ite	ls
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 11
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s 			page 11
 
 
  571 0014 0020     		movls	r0, #0
@@ -623,13 +623,13 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  590              		.size	cmp_mem_access_pos_is_valid, .-cmp_mem_access_pos_is_valid
  591              		.text
  592              	.Letext0:
- 593              		.file 2 "c:\\users\\noeta\\downloads\\eclipse_e-puck2\\tools\\gcc-arm-none-eabi-7-2017-q4-major-wi
- 594              		.file 3 "c:\\users\\noeta\\downloads\\eclipse_e-puck2\\tools\\gcc-arm-none-eabi-7-2017-q4-major-wi
- 595              		.file 4 "c:\\users\\noeta\\downloads\\eclipse_e-puck2\\tools\\gcc-arm-none-eabi-7-2017-q4-major-wi
- 596              		.file 5 "c:\\users\\noeta\\downloads\\eclipse_e-puck2\\tools\\gcc-arm-none-eabi-7-2017-q4-major-wi
- 597              		.file 6 "c:\\users\\noeta\\downloads\\eclipse_e-puck2\\tools\\gcc-arm-none-eabi-7-2017-q4-major-wi
- 598              		.file 7 "c:\\users\\noeta\\downloads\\eclipse_e-puck2\\tools\\gcc-arm-none-eabi-7-2017-q4-major-wi
- 599              		.file 8 "c:\\users\\noeta\\downloads\\eclipse_e-puck2\\tools\\gcc-arm-none-eabi-7-2017-q4-major-wi
+ 593              		.file 2 "c:\\robotique\\eclipse_e-puck2\\tools\\gcc-arm-none-eabi-7-2017-q4-major-win32\\lib\\gcc\
+ 594              		.file 3 "c:\\robotique\\eclipse_e-puck2\\tools\\gcc-arm-none-eabi-7-2017-q4-major-win32\\arm-none-
+ 595              		.file 4 "c:\\robotique\\eclipse_e-puck2\\tools\\gcc-arm-none-eabi-7-2017-q4-major-win32\\arm-none-
+ 596              		.file 5 "c:\\robotique\\eclipse_e-puck2\\tools\\gcc-arm-none-eabi-7-2017-q4-major-win32\\arm-none-
+ 597              		.file 6 "c:\\robotique\\eclipse_e-puck2\\tools\\gcc-arm-none-eabi-7-2017-q4-major-win32\\arm-none-
+ 598              		.file 7 "c:\\robotique\\eclipse_e-puck2\\tools\\gcc-arm-none-eabi-7-2017-q4-major-win32\\arm-none-
+ 599              		.file 8 "c:\\robotique\\eclipse_e-puck2\\tools\\gcc-arm-none-eabi-7-2017-q4-major-win32\\arm-none-
  600              		.file 9 "../lib/e-puck2_main-processor/src/cmp/cmp.h"
  601              		.file 10 "../lib/e-puck2_main-processor/src/cmp_mem_access/cmp_mem_access.h"
  602              		.file 11 "<built-in>"
@@ -643,7 +643,7 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  610 000c 23020000 		.4byte	.LASF148
  611 0010 0C       		.byte	0xc
  612 0011 0C000000 		.4byte	.LASF149
- 613 0015 96030000 		.4byte	.LASF150
+ 613 0015 2F060000 		.4byte	.LASF150
  614 0019 00000000 		.4byte	.Ldebug_ranges0+0
  615 001d 00000000 		.4byte	0
  616 0021 00000000 		.4byte	.Ldebug_line0
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  625 0033 37000000 		.4byte	0x37
  626 0037 04       		.uleb128 0x4
  627 0038 04       		.byte	0x4
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 12
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s 			page 12
 
 
  628 0039 07       		.byte	0x7
@@ -670,7 +670,7 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  634 0045 04       		.uleb128 0x4
  635 0046 08       		.byte	0x8
  636 0047 04       		.byte	0x4
- 637 0048 BB040000 		.4byte	.LASF2
+ 637 0048 84040000 		.4byte	.LASF2
  638 004c 04       		.uleb128 0x4
  639 004d 01       		.byte	0x1
  640 004e 06       		.byte	0x6
@@ -683,15 +683,15 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  647 005e 04       		.uleb128 0x4
  648 005f 01       		.byte	0x1
  649 0060 08       		.byte	0x8
- 650 0061 4F050000 		.4byte	.LASF6
+ 650 0061 18050000 		.4byte	.LASF6
  651 0065 04       		.uleb128 0x4
  652 0066 02       		.byte	0x2
  653 0067 05       		.byte	0x5
- 654 0068 6B050000 		.4byte	.LASF7
+ 654 0068 34050000 		.4byte	.LASF7
  655 006c 04       		.uleb128 0x4
  656 006d 02       		.byte	0x2
  657 006e 07       		.byte	0x7
- 658 006f E9030000 		.4byte	.LASF8
+ 658 006f B2030000 		.4byte	.LASF8
  659 0073 04       		.uleb128 0x4
  660 0074 04       		.byte	0x4
  661 0075 05       		.byte	0x5
@@ -705,7 +705,7 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  669 0083 07       		.byte	0x7
  670 0084 B1000000 		.4byte	.LASF11
  671 0088 03       		.uleb128 0x3
- 672 0089 33040000 		.4byte	.LASF12
+ 672 0089 FC030000 		.4byte	.LASF12
  673 008d 04       		.byte	0x4
  674 008e 22       		.byte	0x22
  675 008f 93000000 		.4byte	0x93
@@ -713,22 +713,22 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  677 0094 04       		.byte	0x4
  678 0095 99000000 		.4byte	0x99
  679 0099 06       		.uleb128 0x6
- 680 009a 2A060000 		.4byte	.LASF119
+ 680 009a F3050000 		.4byte	.LASF119
  681 009e 03       		.uleb128 0x3
- 682 009f 19050000 		.4byte	.LASF13
+ 682 009f E2040000 		.4byte	.LASF13
  683 00a3 05       		.byte	0x5
  684 00a4 2C       		.byte	0x2c
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 13
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s 			page 13
 
 
  685 00a5 73000000 		.4byte	0x73
  686 00a9 03       		.uleb128 0x3
- 687 00aa 4B060000 		.4byte	.LASF14
+ 687 00aa 1B060000 		.4byte	.LASF14
  688 00ae 05       		.byte	0x5
  689 00af 72       		.byte	0x72
  690 00b0 73000000 		.4byte	0x73
  691 00b4 07       		.uleb128 0x7
- 692 00b5 3B040000 		.4byte	.LASF15
+ 692 00b5 04040000 		.4byte	.LASF15
  693 00b9 02       		.byte	0x2
  694 00ba 6501     		.2byte	0x165
  695 00bc 37000000 		.4byte	0x37
@@ -738,7 +738,7 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  699 00c3 A6       		.byte	0xa6
  700 00c4 DF000000 		.4byte	0xdf
  701 00c8 09       		.uleb128 0x9
- 702 00c9 26040000 		.4byte	.LASF16
+ 702 00c9 EF030000 		.4byte	.LASF16
  703 00cd 05       		.byte	0x5
  704 00ce A8       		.byte	0xa8
  705 00cf B4000000 		.4byte	0xb4
@@ -761,24 +761,24 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  722 00f2 A3       		.byte	0xa3
  723 00f3 10010000 		.4byte	0x110
  724 00f7 0D       		.uleb128 0xd
- 725 00f8 22060000 		.4byte	.LASF18
+ 725 00f8 EB050000 		.4byte	.LASF18
  726 00fc 05       		.byte	0x5
  727 00fd A5       		.byte	0xa5
  728 00fe 25000000 		.4byte	0x25
  729 0102 00       		.byte	0
  730 0103 0D       		.uleb128 0xd
- 731 0104 31060000 		.4byte	.LASF19
+ 731 0104 FA050000 		.4byte	.LASF19
  732 0108 05       		.byte	0x5
  733 0109 AA       		.byte	0xaa
  734 010a C0000000 		.4byte	0xc0
  735 010e 04       		.byte	0x4
  736 010f 00       		.byte	0
  737 0110 03       		.uleb128 0x3
- 738 0111 93050000 		.4byte	.LASF20
+ 738 0111 5C050000 		.4byte	.LASF20
  739 0115 05       		.byte	0x5
  740 0116 AB       		.byte	0xab
  741 0117 EF000000 		.4byte	0xef
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 14
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s 			page 14
 
 
  742 011b 03       		.uleb128 0x3
@@ -794,11 +794,11 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  752 012e 04       		.uleb128 0x4
  753 012f 01       		.byte	0x1
  754 0130 08       		.byte	0x8
- 755 0131 5A060000 		.4byte	.LASF22
+ 755 0131 2A060000 		.4byte	.LASF22
  756 0135 0F       		.uleb128 0xf
  757 0136 2E010000 		.4byte	0x12e
  758 013a 03       		.uleb128 0x3
- 759 013b C3060000 		.4byte	.LASF23
+ 759 013b C9060000 		.4byte	.LASF23
  760 013f 06       		.byte	0x6
  761 0140 16       		.byte	0x16
  762 0141 7A000000 		.4byte	0x7a
@@ -809,7 +809,7 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  767 014c 2F       		.byte	0x2f
  768 014d 98010000 		.4byte	0x198
  769 0151 0D       		.uleb128 0xd
- 770 0152 A2060000 		.4byte	.LASF24
+ 770 0152 A8060000 		.4byte	.LASF24
  771 0156 06       		.byte	0x6
  772 0157 31       		.byte	0x31
  773 0158 98010000 		.4byte	0x198
@@ -821,7 +821,7 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  779 0163 25000000 		.4byte	0x25
  780 0167 04       		.byte	0x4
  781 0168 0D       		.uleb128 0xd
- 782 0169 0D060000 		.4byte	.LASF25
+ 782 0169 D6050000 		.4byte	.LASF25
  783 016d 06       		.byte	0x6
  784 016e 32       		.byte	0x32
  785 016f 25000000 		.4byte	0x25
@@ -833,12 +833,12 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  791 017b 25000000 		.4byte	0x25
  792 017f 0C       		.byte	0xc
  793 0180 0D       		.uleb128 0xd
- 794 0181 02070000 		.4byte	.LASF27
+ 794 0181 08070000 		.4byte	.LASF27
  795 0185 06       		.byte	0x6
  796 0186 32       		.byte	0x32
  797 0187 25000000 		.4byte	0x25
  798 018b 10       		.byte	0x10
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 15
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s 			page 15
 
 
  799 018c 11       		.uleb128 0x11
@@ -871,7 +871,7 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  826 01c1 25000000 		.4byte	0x25
  827 01c5 00       		.byte	0
  828 01c6 0D       		.uleb128 0xd
- 829 01c7 5F060000 		.4byte	.LASF31
+ 829 01c7 62070000 		.4byte	.LASF31
  830 01cb 06       		.byte	0x6
  831 01cc 3A       		.byte	0x3a
  832 01cd 25000000 		.4byte	0x25
@@ -883,40 +883,40 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  838 01d9 25000000 		.4byte	0x25
  839 01dd 08       		.byte	0x8
  840 01de 0D       		.uleb128 0xd
- 841 01df 97070000 		.4byte	.LASF33
+ 841 01df 9F070000 		.4byte	.LASF33
  842 01e3 06       		.byte	0x6
  843 01e4 3C       		.byte	0x3c
  844 01e5 25000000 		.4byte	0x25
  845 01e9 0C       		.byte	0xc
  846 01ea 0D       		.uleb128 0xd
- 847 01eb F3040000 		.4byte	.LASF34
+ 847 01eb BC040000 		.4byte	.LASF34
  848 01ef 06       		.byte	0x6
  849 01f0 3D       		.byte	0x3d
  850 01f1 25000000 		.4byte	0x25
  851 01f5 10       		.byte	0x10
  852 01f6 0D       		.uleb128 0xd
- 853 01f7 A6040000 		.4byte	.LASF35
+ 853 01f7 6F040000 		.4byte	.LASF35
  854 01fb 06       		.byte	0x6
  855 01fc 3E       		.byte	0x3e
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 16
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s 			page 16
 
 
  856 01fd 25000000 		.4byte	0x25
  857 0201 14       		.byte	0x14
  858 0202 0D       		.uleb128 0xd
- 859 0203 07070000 		.4byte	.LASF36
+ 859 0203 0D070000 		.4byte	.LASF36
  860 0207 06       		.byte	0x6
  861 0208 3F       		.byte	0x3f
  862 0209 25000000 		.4byte	0x25
  863 020d 18       		.byte	0x18
  864 020e 0D       		.uleb128 0xd
- 865 020f 75050000 		.4byte	.LASF37
+ 865 020f 3E050000 		.4byte	.LASF37
  866 0213 06       		.byte	0x6
  867 0214 40       		.byte	0x40
  868 0215 25000000 		.4byte	0x25
  869 0219 1C       		.byte	0x1c
  870 021a 0D       		.uleb128 0xd
- 871 021b 42070000 		.4byte	.LASF38
+ 871 021b 48070000 		.4byte	.LASF38
  872 021f 06       		.byte	0x6
  873 0220 41       		.byte	0x41
  874 0221 25000000 		.4byte	0x25
@@ -941,7 +941,7 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  893 0247 67020000 		.4byte	0x267
  894 024b 80       		.byte	0x80
  895 024c 13       		.uleb128 0x13
- 896 024d B5060000 		.4byte	.LASF42
+ 896 024d BB060000 		.4byte	.LASF42
  897 0251 06       		.byte	0x6
  898 0252 4E       		.byte	0x4e
  899 0253 3A010000 		.4byte	0x13a
@@ -958,25 +958,25 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  910 026c 77020000 		.4byte	0x277
  911 0270 0B       		.uleb128 0xb
  912 0271 37000000 		.4byte	0x37
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 17
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s 			page 17
 
 
  913 0275 1F       		.byte	0x1f
  914 0276 00       		.byte	0
  915 0277 12       		.uleb128 0x12
- 916 0278 FC040000 		.4byte	.LASF44
+ 916 0278 C5040000 		.4byte	.LASF44
  917 027c 9001     		.2byte	0x190
  918 027e 06       		.byte	0x6
  919 027f 5D       		.byte	0x5d
  920 0280 B5020000 		.4byte	0x2b5
  921 0284 0D       		.uleb128 0xd
- 922 0285 A2060000 		.4byte	.LASF24
+ 922 0285 A8060000 		.4byte	.LASF24
  923 0289 06       		.byte	0x6
  924 028a 5E       		.byte	0x5e
  925 028b B5020000 		.4byte	0x2b5
  926 028f 00       		.byte	0
  927 0290 0D       		.uleb128 0xd
- 928 0291 CC050000 		.4byte	.LASF45
+ 928 0291 95050000 		.4byte	.LASF45
  929 0295 06       		.byte	0x6
  930 0296 5F       		.byte	0x5f
  931 0297 25000000 		.4byte	0x25
@@ -1009,7 +1009,7 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  958 02cd D1020000 		.4byte	0x2d1
  959 02d1 14       		.uleb128 0x14
  960 02d2 10       		.uleb128 0x10
- 961 02d3 7F050000 		.4byte	.LASF47
+ 961 02d3 48050000 		.4byte	.LASF47
  962 02d7 08       		.byte	0x8
  963 02d8 06       		.byte	0x6
  964 02d9 75       		.byte	0x75
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  967 02df 14010000 		.4byte	.LASF48
  968 02e3 06       		.byte	0x6
  969 02e4 76       		.byte	0x76
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 18
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s 			page 18
 
 
  970 02e5 F7020000 		.4byte	0x2f7
@@ -1034,7 +1034,7 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  980 02f8 04       		.byte	0x4
  981 02f9 5E000000 		.4byte	0x5e
  982 02fd 10       		.uleb128 0x10
- 983 02fe 9E050000 		.4byte	.LASF50
+ 983 02fe 67050000 		.4byte	.LASF50
  984 0302 68       		.byte	0x68
  985 0303 06       		.byte	0x6
  986 0304 B5       		.byte	0xb5
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  1024 034e 0D       		.uleb128 0xd
  1025 034f C8000000 		.4byte	.LASF53
  1026 0353 06       		.byte	0x6
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 19
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s 			page 19
 
 
  1027 0354 BC       		.byte	0xbc
@@ -1097,19 +1097,19 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  1040 036d 82050000 		.4byte	0x582
  1041 0371 20       		.byte	0x20
  1042 0372 0D       		.uleb128 0xd
- 1043 0373 9F040000 		.4byte	.LASF56
+ 1043 0373 68040000 		.4byte	.LASF56
  1044 0377 06       		.byte	0x6
  1045 0378 C7       		.byte	0xc7
  1046 0379 AC050000 		.4byte	0x5ac
  1047 037d 24       		.byte	0x24
  1048 037e 0D       		.uleb128 0xd
- 1049 037f 39060000 		.4byte	.LASF57
+ 1049 037f 02060000 		.4byte	.LASF57
  1050 0383 06       		.byte	0x6
  1051 0384 CA       		.byte	0xca
  1052 0385 D0050000 		.4byte	0x5d0
  1053 0389 28       		.byte	0x28
  1054 038a 0D       		.uleb128 0xd
- 1055 038b 5C070000 		.4byte	.LASF58
+ 1055 038b 14060000 		.4byte	.LASF58
  1056 038f 06       		.byte	0x6
  1057 0390 CB       		.byte	0xcb
  1058 0391 EA050000 		.4byte	0x5ea
@@ -1138,11 +1138,11 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  1081 03c0 D3       		.byte	0xd3
  1082 03c1 F0050000 		.4byte	0x5f0
  1083 03c5 40       		.byte	0x40
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 20
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s 			page 20
 
 
  1084 03c6 0D       		.uleb128 0xd
- 1085 03c7 34070000 		.4byte	.LASF60
+ 1085 03c7 3A070000 		.4byte	.LASF60
  1086 03cb 06       		.byte	0x6
  1087 03cc D4       		.byte	0xd4
  1088 03cd 00060000 		.4byte	0x600
@@ -1172,19 +1172,19 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  1112 03fd 45040000 		.4byte	0x445
  1113 0401 54       		.byte	0x54
  1114 0402 0D       		.uleb128 0xd
- 1115 0403 71040000 		.4byte	.LASF64
+ 1115 0403 3A040000 		.4byte	.LASF64
  1116 0407 06       		.byte	0x6
  1117 0408 E2       		.byte	0xe2
  1118 0409 1B010000 		.4byte	0x11b
  1119 040d 58       		.byte	0x58
  1120 040e 0D       		.uleb128 0xd
- 1121 040f A6050000 		.4byte	.LASF65
+ 1121 040f 6F050000 		.4byte	.LASF65
  1122 0413 06       		.byte	0x6
  1123 0414 E4       		.byte	0xe4
  1124 0415 10010000 		.4byte	0x110
  1125 0419 5C       		.byte	0x5c
  1126 041a 0D       		.uleb128 0xd
- 1127 041b 88040000 		.4byte	.LASF66
+ 1127 041b 51040000 		.4byte	.LASF66
  1128 041f 06       		.byte	0x6
  1129 0420 E5       		.byte	0xe5
  1130 0421 25000000 		.4byte	0x25
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  1138 0435 16       		.uleb128 0x16
  1139 0436 26010000 		.4byte	0x126
  1140 043a 16       		.uleb128 0x16
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 21
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s 			page 21
 
 
  1141 043b 28010000 		.4byte	0x128
@@ -1211,13 +1211,13 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  1148 044b 0F       		.uleb128 0xf
  1149 044c 45040000 		.4byte	0x445
  1150 0450 17       		.uleb128 0x17
- 1151 0451 15060000 		.4byte	.LASF67
+ 1151 0451 DE050000 		.4byte	.LASF67
  1152 0455 2804     		.2byte	0x428
  1153 0457 06       		.byte	0x6
  1154 0458 3902     		.2byte	0x239
  1155 045a 82050000 		.4byte	0x582
  1156 045e 18       		.uleb128 0x18
- 1157 045f 53060000 		.4byte	.LASF68
+ 1157 045f 23060000 		.4byte	.LASF68
  1158 0463 06       		.byte	0x6
  1159 0464 3B02     		.2byte	0x23b
  1160 0466 25000000 		.4byte	0x25
@@ -1241,7 +1241,7 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  1178 048d 57060000 		.4byte	0x657
  1179 0491 0C       		.byte	0xc
  1180 0492 18       		.uleb128 0x18
- 1181 0493 C7050000 		.4byte	.LASF72
+ 1181 0493 90050000 		.4byte	.LASF72
  1182 0497 06       		.byte	0x6
  1183 0498 4202     		.2byte	0x242
  1184 049a 25000000 		.4byte	0x25
@@ -1253,34 +1253,34 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  1190 04a7 39080000 		.4byte	0x839
  1191 04ab 14       		.byte	0x14
  1192 04ac 18       		.uleb128 0x18
- 1193 04ad E3050000 		.4byte	.LASF74
+ 1193 04ad AC050000 		.4byte	.LASF74
  1194 04b1 06       		.byte	0x6
  1195 04b2 4602     		.2byte	0x246
  1196 04b4 25000000 		.4byte	0x25
  1197 04b8 30       		.byte	0x30
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 22
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s 			page 22
 
 
  1198 04b9 18       		.uleb128 0x18
- 1199 04ba D1050000 		.4byte	.LASF75
+ 1199 04ba 9A050000 		.4byte	.LASF75
  1200 04be 06       		.byte	0x6
  1201 04bf 4702     		.2byte	0x247
  1202 04c1 4E080000 		.4byte	0x84e
  1203 04c5 34       		.byte	0x34
  1204 04c6 18       		.uleb128 0x18
- 1205 04c7 0E050000 		.4byte	.LASF76
+ 1205 04c7 D7040000 		.4byte	.LASF76
  1206 04cb 06       		.byte	0x6
  1207 04cc 4902     		.2byte	0x249
  1208 04ce 25000000 		.4byte	0x25
  1209 04d2 38       		.byte	0x38
  1210 04d3 18       		.uleb128 0x18
- 1211 04d4 D9050000 		.4byte	.LASF77
+ 1211 04d4 A2050000 		.4byte	.LASF77
  1212 04d8 06       		.byte	0x6
  1213 04d9 4B02     		.2byte	0x24b
  1214 04db 5F080000 		.4byte	0x85f
  1215 04df 3C       		.byte	0x3c
  1216 04e0 18       		.uleb128 0x18
- 1217 04e1 1E040000 		.4byte	.LASF78
+ 1217 04e1 E7030000 		.4byte	.LASF78
  1218 04e5 06       		.byte	0x6
  1219 04e6 4E02     		.2byte	0x24e
  1220 04e8 98010000 		.4byte	0x198
@@ -1292,13 +1292,13 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  1226 04f5 25000000 		.4byte	0x25
  1227 04f9 44       		.byte	0x44
  1228 04fa 18       		.uleb128 0x18
- 1229 04fb 92070000 		.4byte	.LASF80
+ 1229 04fb 9A070000 		.4byte	.LASF80
  1230 04ff 06       		.byte	0x6
  1231 0500 5002     		.2byte	0x250
  1232 0502 98010000 		.4byte	0x198
  1233 0506 48       		.byte	0x48
  1234 0507 18       		.uleb128 0x18
- 1235 0508 2B050000 		.4byte	.LASF81
+ 1235 0508 F4040000 		.4byte	.LASF81
  1236 050c 06       		.byte	0x6
  1237 050d 5102     		.2byte	0x251
  1238 050f 65080000 		.4byte	0x865
@@ -1316,28 +1316,28 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  1250 0529 28010000 		.4byte	0x128
  1251 052d 54       		.byte	0x54
  1252 052e 18       		.uleb128 0x18
- 1253 052f 5D050000 		.4byte	.LASF84
+ 1253 052f 26050000 		.4byte	.LASF84
  1254 0533 06       		.byte	0x6
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 23
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s 			page 23
 
 
  1255 0534 7802     		.2byte	0x278
  1256 0536 17080000 		.4byte	0x817
  1257 053a 58       		.byte	0x58
  1258 053b 19       		.uleb128 0x19
- 1259 053c FC040000 		.4byte	.LASF44
+ 1259 053c C5040000 		.4byte	.LASF44
  1260 0540 06       		.byte	0x6
  1261 0541 7C02     		.2byte	0x27c
  1262 0543 B5020000 		.4byte	0x2b5
  1263 0547 4801     		.2byte	0x148
  1264 0549 19       		.uleb128 0x19
- 1265 054a FC030000 		.4byte	.LASF85
+ 1265 054a C5030000 		.4byte	.LASF85
  1266 054e 06       		.byte	0x6
  1267 054f 7D02     		.2byte	0x27d
  1268 0551 77020000 		.4byte	0x277
  1269 0555 4C01     		.2byte	0x14c
  1270 0557 19       		.uleb128 0x19
- 1271 0558 2A070000 		.4byte	.LASF86
+ 1271 0558 30070000 		.4byte	.LASF86
  1272 055c 06       		.byte	0x6
  1273 055d 8102     		.2byte	0x281
  1274 055f 76080000 		.4byte	0x876
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  1309 05ae 88050000 		.4byte	0x588
  1310 05b2 15       		.uleb128 0x15
  1311 05b3 A9000000 		.4byte	0xa9
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 24
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s 			page 24
 
 
  1312 05b7 D0050000 		.4byte	0x5d0
@@ -1420,25 +1420,25 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  1348 060e 00       		.byte	0
  1349 060f 00       		.byte	0
  1350 0610 07       		.uleb128 0x7
- 1351 0611 8C050000 		.4byte	.LASF89
+ 1351 0611 55050000 		.4byte	.LASF89
  1352 0615 06       		.byte	0x6
  1353 0616 1F01     		.2byte	0x11f
  1354 0618 FD020000 		.4byte	0x2fd
  1355 061c 1A       		.uleb128 0x1a
- 1356 061d 11070000 		.4byte	.LASF90
+ 1356 061d 17070000 		.4byte	.LASF90
  1357 0621 0C       		.byte	0xc
  1358 0622 06       		.byte	0x6
  1359 0623 2301     		.2byte	0x123
  1360 0625 51060000 		.4byte	0x651
  1361 0629 18       		.uleb128 0x18
- 1362 062a A2060000 		.4byte	.LASF24
+ 1362 062a A8060000 		.4byte	.LASF24
  1363 062e 06       		.byte	0x6
  1364 062f 2501     		.2byte	0x125
  1365 0631 51060000 		.4byte	0x651
  1366 0635 00       		.byte	0
  1367 0636 18       		.uleb128 0x18
- 1368 0637 D8030000 		.4byte	.LASF91
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 25
+ 1368 0637 A1030000 		.4byte	.LASF91
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s 			page 25
 
 
  1369 063b 06       		.byte	0x6
@@ -1446,7 +1446,7 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  1371 063e 25000000 		.4byte	0x25
  1372 0642 04       		.byte	0x4
  1373 0643 18       		.uleb128 0x18
- 1374 0644 86050000 		.4byte	.LASF92
+ 1374 0644 4F050000 		.4byte	.LASF92
  1375 0648 06       		.byte	0x6
  1376 0649 2701     		.2byte	0x127
  1377 064b 57060000 		.4byte	0x657
@@ -1465,19 +1465,19 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  1390 0664 3F01     		.2byte	0x13f
  1391 0666 92060000 		.4byte	0x692
  1392 066a 18       		.uleb128 0x18
- 1393 066b 1C060000 		.4byte	.LASF94
+ 1393 066b E5050000 		.4byte	.LASF94
  1394 066f 06       		.byte	0x6
  1395 0670 4001     		.2byte	0x140
  1396 0672 92060000 		.4byte	0x692
  1397 0676 00       		.byte	0
  1398 0677 18       		.uleb128 0x18
- 1399 0678 9C060000 		.4byte	.LASF95
+ 1399 0678 A2060000 		.4byte	.LASF95
  1400 067c 06       		.byte	0x6
  1401 067d 4101     		.2byte	0x141
  1402 067f 92060000 		.4byte	0x692
  1403 0683 06       		.byte	0x6
  1404 0684 18       		.uleb128 0x18
- 1405 0685 BE060000 		.4byte	.LASF96
+ 1405 0685 C4060000 		.4byte	.LASF96
  1406 0689 06       		.byte	0x6
  1407 068a 4201     		.2byte	0x142
  1408 068c 6C000000 		.4byte	0x6c
@@ -1496,28 +1496,28 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  1421 06a5 5902     		.2byte	0x259
  1422 06a7 A3070000 		.4byte	0x7a3
  1423 06ab 18       		.uleb128 0x18
- 1424 06ac DE060000 		.4byte	.LASF97
+ 1424 06ac E4060000 		.4byte	.LASF97
  1425 06b0 06       		.byte	0x6
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 26
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s 			page 26
 
 
  1426 06b1 5B02     		.2byte	0x25b
  1427 06b3 37000000 		.4byte	0x37
  1428 06b7 00       		.byte	0
  1429 06b8 18       		.uleb128 0x18
- 1430 06b9 A8060000 		.4byte	.LASF98
+ 1430 06b9 AE060000 		.4byte	.LASF98
  1431 06bd 06       		.byte	0x6
  1432 06be 5C02     		.2byte	0x25c
  1433 06c0 28010000 		.4byte	0x128
  1434 06c4 04       		.byte	0x4
  1435 06c5 18       		.uleb128 0x18
- 1436 06c6 11040000 		.4byte	.LASF99
+ 1436 06c6 DA030000 		.4byte	.LASF99
  1437 06ca 06       		.byte	0x6
  1438 06cb 5D02     		.2byte	0x25d
  1439 06cd A3070000 		.4byte	0x7a3
  1440 06d1 08       		.byte	0x8
  1441 06d2 18       		.uleb128 0x18
- 1442 06d3 4D070000 		.4byte	.LASF100
+ 1442 06d3 53070000 		.4byte	.LASF100
  1443 06d7 06       		.byte	0x6
  1444 06d8 5E02     		.2byte	0x25e
  1445 06da AE010000 		.4byte	0x1ae
@@ -1529,46 +1529,46 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  1451 06e7 25000000 		.4byte	0x25
  1452 06eb 48       		.byte	0x48
  1453 06ec 18       		.uleb128 0x18
- 1454 06ed AF050000 		.4byte	.LASF102
+ 1454 06ed 78050000 		.4byte	.LASF102
  1455 06f1 06       		.byte	0x6
  1456 06f2 6002     		.2byte	0x260
  1457 06f4 81000000 		.4byte	0x81
  1458 06f8 50       		.byte	0x50
  1459 06f9 18       		.uleb128 0x18
- 1460 06fa 63070000 		.4byte	.LASF103
+ 1460 06fa 6B070000 		.4byte	.LASF103
  1461 06fe 06       		.byte	0x6
  1462 06ff 6102     		.2byte	0x261
  1463 0701 5D060000 		.4byte	0x65d
  1464 0705 58       		.byte	0x58
  1465 0706 18       		.uleb128 0x18
- 1466 0707 BA050000 		.4byte	.LASF104
+ 1466 0707 83050000 		.4byte	.LASF104
  1467 070b 06       		.byte	0x6
  1468 070c 6202     		.2byte	0x262
  1469 070e 10010000 		.4byte	0x110
  1470 0712 68       		.byte	0x68
  1471 0713 18       		.uleb128 0x18
- 1472 0714 84070000 		.4byte	.LASF105
+ 1472 0714 8C070000 		.4byte	.LASF105
  1473 0718 06       		.byte	0x6
  1474 0719 6302     		.2byte	0x263
  1475 071b 10010000 		.4byte	0x110
  1476 071f 70       		.byte	0x70
  1477 0720 18       		.uleb128 0x18
- 1478 0721 3B050000 		.4byte	.LASF106
+ 1478 0721 04050000 		.4byte	.LASF106
  1479 0725 06       		.byte	0x6
  1480 0726 6402     		.2byte	0x264
  1481 0728 10010000 		.4byte	0x110
  1482 072c 78       		.byte	0x78
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 27
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s 			page 27
 
 
  1483 072d 18       		.uleb128 0x18
- 1484 072e 20070000 		.4byte	.LASF107
+ 1484 072e 26070000 		.4byte	.LASF107
  1485 0732 06       		.byte	0x6
  1486 0733 6502     		.2byte	0x265
  1487 0735 B3070000 		.4byte	0x7b3
  1488 0739 80       		.byte	0x80
  1489 073a 18       		.uleb128 0x18
- 1490 073b 05040000 		.4byte	.LASF108
+ 1490 073b CE030000 		.4byte	.LASF108
  1491 073f 06       		.byte	0x6
  1492 0740 6602     		.2byte	0x266
  1493 0742 C3070000 		.4byte	0x7c3
@@ -1610,7 +1610,7 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  1529 0790 10010000 		.4byte	0x110
  1530 0794 C4       		.byte	0xc4
  1531 0795 18       		.uleb128 0x18
- 1532 0796 62050000 		.4byte	.LASF115
+ 1532 0796 2B050000 		.4byte	.LASF115
  1533 079a 06       		.byte	0x6
  1534 079b 6D02     		.2byte	0x26d
  1535 079d 25000000 		.4byte	0x25
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  1537 07a2 00       		.byte	0
  1538 07a3 0A       		.uleb128 0xa
  1539 07a4 2E010000 		.4byte	0x12e
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 28
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s 			page 28
 
 
  1540 07a8 B3070000 		.4byte	0x7b3
@@ -1646,13 +1646,13 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  1562 07d6 7202     		.2byte	0x272
  1563 07d8 F7070000 		.4byte	0x7f7
  1564 07dc 18       		.uleb128 0x18
- 1565 07dd DA040000 		.4byte	.LASF116
+ 1565 07dd A3040000 		.4byte	.LASF116
  1566 07e1 06       		.byte	0x6
  1567 07e2 7502     		.2byte	0x275
  1568 07e4 F7070000 		.4byte	0x7f7
  1569 07e8 00       		.byte	0
  1570 07e9 18       		.uleb128 0x18
- 1571 07ea 17070000 		.4byte	.LASF117
+ 1571 07ea 1D070000 		.4byte	.LASF117
  1572 07ee 06       		.byte	0x6
  1573 07ef 7602     		.2byte	0x276
  1574 07f1 07080000 		.4byte	0x807
@@ -1678,15 +1678,15 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  1594 081a 5702     		.2byte	0x257
  1595 081c 39080000 		.4byte	0x839
  1596 0820 1D       		.uleb128 0x1d
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 29
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s 			page 29
 
 
- 1597 0821 15060000 		.4byte	.LASF67
+ 1597 0821 DE050000 		.4byte	.LASF67
  1598 0825 06       		.byte	0x6
  1599 0826 6E02     		.2byte	0x26e
  1600 0828 A2060000 		.4byte	0x6a2
  1601 082c 1D       		.uleb128 0x1d
- 1602 082d 3A070000 		.4byte	.LASF118
+ 1602 082d 40070000 		.4byte	.LASF118
  1603 0831 06       		.byte	0x6
  1604 0832 7702     		.2byte	0x277
  1605 0834 D3070000 		.4byte	0x7d3
@@ -1733,15 +1733,15 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  1646 0890 02       		.byte	0x2
  1647 0891 00       		.byte	0
  1648 0892 1F       		.uleb128 0x1f
- 1649 0893 3F060000 		.4byte	.LASF121
+ 1649 0893 08060000 		.4byte	.LASF121
  1650 0897 06       		.byte	0x6
  1651 0898 0703     		.2byte	0x307
  1652 089a 45040000 		.4byte	0x445
  1653 089e 1F       		.uleb128 0x1f
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 30
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s 			page 30
 
 
- 1654 089f CB060000 		.4byte	.LASF122
+ 1654 089f D1060000 		.4byte	.LASF122
  1655 08a3 06       		.byte	0x6
  1656 08a4 0803     		.2byte	0x308
  1657 08a6 4B040000 		.4byte	0x44b
@@ -1750,17 +1750,17 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  1660 08ac B0080000 		.4byte	0x8b0
  1661 08b0 20       		.uleb128 0x20
  1662 08b1 21       		.uleb128 0x21
- 1663 08b2 04050000 		.4byte	.LASF123
+ 1663 08b2 CD040000 		.4byte	.LASF123
  1664 08b6 07       		.byte	0x7
  1665 08b7 63       		.byte	0x63
  1666 08b8 28010000 		.4byte	0x128
  1667 08bc 03       		.uleb128 0x3
- 1668 08bd 94060000 		.4byte	.LASF124
+ 1668 08bd 9A060000 		.4byte	.LASF124
  1669 08c1 08       		.byte	0x8
  1670 08c2 18       		.byte	0x18
  1671 08c3 53000000 		.4byte	0x53
  1672 08c7 03       		.uleb128 0x3
- 1673 08c8 B0040000 		.4byte	.LASF125
+ 1673 08c8 79040000 		.4byte	.LASF125
  1674 08cc 09       		.byte	0x9
  1675 08cd 06       		.byte	0x6
  1676 08ce D2080000 		.4byte	0x8d2
@@ -1780,25 +1780,25 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  1690 08f1 04       		.uleb128 0x4
  1691 08f2 01       		.byte	0x1
  1692 08f3 02       		.byte	0x2
- 1693 08f4 49050000 		.4byte	.LASF126
+ 1693 08f4 12050000 		.4byte	.LASF126
  1694 08f8 05       		.uleb128 0x5
  1695 08f9 04       		.byte	0x4
  1696 08fa FE080000 		.4byte	0x8fe
  1697 08fe 10       		.uleb128 0x10
- 1698 08ff D0040000 		.4byte	.LASF127
+ 1698 08ff 99040000 		.4byte	.LASF127
  1699 0903 10       		.byte	0x10
  1700 0904 09       		.byte	0x9
  1701 0905 48       		.byte	0x48
  1702 0906 3B090000 		.4byte	0x93b
  1703 090a 0D       		.uleb128 0xd
- 1704 090b 35050000 		.4byte	.LASF128
+ 1704 090b FE040000 		.4byte	.LASF128
  1705 090f 09       		.byte	0x9
  1706 0910 49       		.byte	0x49
  1707 0911 BC080000 		.4byte	0x8bc
  1708 0915 00       		.byte	0
  1709 0916 11       		.uleb128 0x11
  1710 0917 62756600 		.ascii	"buf\000"
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 31
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s 			page 31
 
 
  1711 091b 09       		.byte	0x9
@@ -1806,7 +1806,7 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  1713 091d 26010000 		.4byte	0x126
  1714 0921 04       		.byte	0x4
  1715 0922 0D       		.uleb128 0xd
- 1716 0923 20050000 		.4byte	.LASF129
+ 1716 0923 E9040000 		.4byte	.LASF129
  1717 0927 09       		.byte	0x9
  1718 0928 4B       		.byte	0x4b
  1719 0929 C7080000 		.4byte	0x8c7
@@ -1819,7 +1819,7 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  1726 0939 0C       		.byte	0xc
  1727 093a 00       		.byte	0
  1728 093b 03       		.uleb128 0x3
- 1729 093c CD030000 		.4byte	.LASF131
+ 1729 093c 96030000 		.4byte	.LASF131
  1730 0940 09       		.byte	0x9
  1731 0941 07       		.byte	0x7
  1732 0942 46090000 		.4byte	0x946
@@ -1839,7 +1839,7 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  1746 0965 04       		.uleb128 0x4
  1747 0966 04       		.byte	0x4
  1748 0967 04       		.byte	0x4
- 1749 0968 25050000 		.4byte	.LASF132
+ 1749 0968 EE040000 		.4byte	.LASF132
  1750 096c 04       		.uleb128 0x4
  1751 096d 08       		.byte	0x8
  1752 096e 04       		.byte	0x4
@@ -1858,31 +1858,31 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  1765 0987 62756600 		.ascii	"buf\000"
  1766 098b 0A       		.byte	0xa
  1767 098c 0E       		.byte	0xe
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 32
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s 			page 32
 
 
  1768 098d 28010000 		.4byte	0x128
  1769 0991 00       		.byte	0
  1770 0992 0D       		.uleb128 0xd
- 1771 0993 8E060000 		.4byte	.LASF135
+ 1771 0993 94060000 		.4byte	.LASF135
  1772 0997 0A       		.byte	0xa
  1773 0998 0F       		.byte	0xf
  1774 0999 2C000000 		.4byte	0x2c
  1775 099d 04       		.byte	0x4
  1776 099e 0D       		.uleb128 0xd
- 1777 099f E4030000 		.4byte	.LASF136
+ 1777 099f AD030000 		.4byte	.LASF136
  1778 09a3 0A       		.byte	0xa
  1779 09a4 10       		.byte	0x10
  1780 09a5 2C000000 		.4byte	0x2c
  1781 09a9 08       		.byte	0x8
  1782 09aa 00       		.byte	0
  1783 09ab 03       		.uleb128 0x3
- 1784 09ac 77040000 		.4byte	.LASF137
+ 1784 09ac 40040000 		.4byte	.LASF137
  1785 09b0 0A       		.byte	0xa
  1786 09b1 11       		.byte	0x11
  1787 09b2 7E090000 		.4byte	0x97e
  1788 09b6 22       		.uleb128 0x22
- 1789 09b7 68070000 		.4byte	.LASF138
+ 1789 09b7 70070000 		.4byte	.LASF138
  1790 09bb 01       		.byte	0x1
  1791 09bc 43       		.byte	0x43
  1792 09bd F1080000 		.4byte	0x8f1
@@ -1911,14 +1911,14 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  1815 09f6 04       		.byte	0x4
  1816 09f7 AB090000 		.4byte	0x9ab
  1817 09fb 22       		.uleb128 0x22
- 1818 09fc 42040000 		.4byte	.LASF139
+ 1818 09fc 0B040000 		.4byte	.LASF139
  1819 0a00 01       		.byte	0x1
  1820 0a01 3E       		.byte	0x3e
  1821 0a02 26010000 		.4byte	0x126
  1822 0a06 00000000 		.4byte	.LFB7
  1823 0a0a 24000000 		.4byte	.LFE7-.LFB7
  1824 0a0e 01       		.uleb128 0x1
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 33
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s 			page 33
 
 
  1825 0a0f 9C       		.byte	0x9c
@@ -1940,7 +1940,7 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  1841 0a35 F20C0000 		.4byte	0xcf2
  1842 0a39 00       		.byte	0
  1843 0a3a 25       		.uleb128 0x25
- 1844 0a3b 68060000 		.4byte	.LASF141
+ 1844 0a3b 6E060000 		.4byte	.LASF141
  1845 0a3f 01       		.byte	0x1
  1846 0a40 39       		.byte	0x39
  1847 0a41 00000000 		.4byte	.LFB6
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  1879 0a8f 6D00     		.ascii	"m\000"
  1880 0a91 01       		.byte	0x1
  1881 0a92 34       		.byte	0x34
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 34
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s 			page 34
 
 
  1882 0a93 F5090000 		.4byte	0x9f5
@@ -1988,7 +1988,7 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  1886 0aa0 F20C0000 		.4byte	0xcf2
  1887 0aa4 00       		.byte	0
  1888 0aa5 25       		.uleb128 0x25
- 1889 0aa6 EB060000 		.4byte	.LASF142
+ 1889 0aa6 F1060000 		.4byte	.LASF142
  1890 0aaa 01       		.byte	0x1
  1891 0aab 2C       		.byte	0x2c
  1892 0aac 00000000 		.4byte	.LFB4
@@ -2015,7 +2015,7 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  1913 0add AA080000 		.4byte	0x8aa
  1914 0ae1 5B010000 		.4byte	.LLST15
  1915 0ae5 26       		.uleb128 0x26
- 1916 0ae6 E4030000 		.4byte	.LASF136
+ 1916 0ae6 AD030000 		.4byte	.LASF136
  1917 0aea 01       		.byte	0x1
  1918 0aeb 2C       		.byte	0x2c
  1919 0aec 2C000000 		.4byte	0x2c
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  1936 0b0c F3       		.byte	0xf3
  1937 0b0d 01       		.uleb128 0x1
  1938 0b0e 51       		.byte	0x51
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 35
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s 			page 35
 
 
  1939 0b0f 28       		.uleb128 0x28
@@ -2062,7 +2062,7 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  1957 0b2d 04       		.byte	0x4
  1958 0b2e 73090000 		.4byte	0x973
  1959 0b32 25       		.uleb128 0x25
- 1960 0b33 A1070000 		.4byte	.LASF143
+ 1960 0b33 A9070000 		.4byte	.LASF143
  1961 0b37 01       		.byte	0x1
  1962 0b38 24       		.byte	0x24
  1963 0b39 00000000 		.4byte	.LFB3
@@ -2089,7 +2089,7 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  1984 0b6a 26010000 		.4byte	0x126
  1985 0b6e 5D020000 		.4byte	.LLST11
  1986 0b72 26       		.uleb128 0x26
- 1987 0b73 E4030000 		.4byte	.LASF136
+ 1987 0b73 AD030000 		.4byte	.LASF136
  1988 0b77 01       		.byte	0x1
  1989 0b78 24       		.byte	0x24
  1990 0b79 2C000000 		.4byte	0x2c
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  1993 0b82 28000000 		.4byte	.LVL25
  1994 0b86 FB0C0000 		.4byte	0xcfb
  1995 0b8a AF0B0000 		.4byte	0xbaf
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 36
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s 			page 36
 
 
  1996 0b8e 28       		.uleb128 0x28
@@ -2133,7 +2133,7 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  2025 0bb4 F20C0000 		.4byte	0xcf2
  2026 0bb8 00       		.byte	0
  2027 0bb9 29       		.uleb128 0x29
- 2028 0bba E1040000 		.4byte	.LASF145
+ 2028 0bba AA040000 		.4byte	.LASF145
  2029 0bbe 01       		.byte	0x1
  2030 0bbf 1C       		.byte	0x1c
  2031 0bc0 2C000000 		.4byte	0x2c
@@ -2149,7 +2149,7 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  2041 0bd9 F8080000 		.4byte	0x8f8
  2042 0bdd EB020000 		.4byte	.LLST0
  2043 0be1 26       		.uleb128 0x26
- 2044 0be2 DF030000 		.4byte	.LASF144
+ 2044 0be2 A8030000 		.4byte	.LASF144
  2045 0be6 01       		.byte	0x1
  2046 0be7 1C       		.byte	0x1c
  2047 0be8 AA080000 		.4byte	0x8aa
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  2050 0bf1 6C656E00 		.ascii	"len\000"
  2051 0bf5 01       		.byte	0x1
  2052 0bf6 1C       		.byte	0x1c
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 37
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s 			page 37
 
 
  2053 0bf7 2C000000 		.4byte	0x2c
@@ -2168,7 +2168,7 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  2057 0c04 F20C0000 		.4byte	0xcf2
  2058 0c08 00       		.byte	0
  2059 0c09 29       		.uleb128 0x29
- 2060 0c0a 7F060000 		.4byte	.LASF146
+ 2060 0c0a 85060000 		.4byte	.LASF146
  2061 0c0e 01       		.byte	0x1
  2062 0c0f 10       		.byte	0x10
  2063 0c10 2C000000 		.4byte	0x2c
@@ -2184,7 +2184,7 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  2073 0c29 F8080000 		.4byte	0x8f8
  2074 0c2d 67030000 		.4byte	.LLST3
  2075 0c31 26       		.uleb128 0x26
- 2076 0c32 DF030000 		.4byte	.LASF144
+ 2076 0c32 A8030000 		.4byte	.LASF144
  2077 0c36 01       		.byte	0x1
  2078 0c37 10       		.byte	0x10
  2079 0c38 AA080000 		.4byte	0x8aa
@@ -2218,10 +2218,10 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  2107 0c75 F20C0000 		.4byte	0xcf2
  2108 0c79 00       		.byte	0
  2109 0c7a 29       		.uleb128 0x29
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 38
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s 			page 38
 
 
- 2110 0c7b 90040000 		.4byte	.LASF147
+ 2110 0c7b 59040000 		.4byte	.LASF147
  2111 0c7f 01       		.byte	0x1
  2112 0c80 04       		.byte	0x4
  2113 0c81 F1080000 		.4byte	0x8f1
@@ -2237,7 +2237,7 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  2123 0c9a F8080000 		.4byte	0x8f8
  2124 0c9e 07040000 		.4byte	.LLST6
  2125 0ca2 26       		.uleb128 0x26
- 2126 0ca3 DF030000 		.4byte	.LASF144
+ 2126 0ca3 A8030000 		.4byte	.LASF144
  2127 0ca7 01       		.byte	0x1
  2128 0ca8 04       		.byte	0x4
  2129 0ca9 26010000 		.4byte	0x126
@@ -2278,22 +2278,22 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  2164 0ced F20C0000 		.4byte	0xcf2
  2165 0cf1 00       		.byte	0
  2166 0cf2 2C       		.uleb128 0x2c
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 39
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s 			page 39
 
 
- 2167 0cf3 FC050000 		.4byte	.LASF151
- 2168 0cf7 FC050000 		.4byte	.LASF151
+ 2167 0cf3 C5050000 		.4byte	.LASF151
+ 2168 0cf7 C5050000 		.4byte	.LASF151
  2169 0cfb 2D       		.uleb128 0x2d
- 2170 0cfc C7040000 		.4byte	.LASF152
- 2171 0d00 C7040000 		.4byte	.LASF152
+ 2170 0cfc 90040000 		.4byte	.LASF152
+ 2171 0d00 90040000 		.4byte	.LASF152
  2172 0d04 09       		.byte	0x9
  2173 0d05 5F       		.byte	0x5f
  2174 0d06 2E       		.uleb128 0x2e
- 2175 0d07 2C040000 		.4byte	.LASF153
- 2176 0d0b 60040000 		.4byte	.LASF154
+ 2175 0d07 F5030000 		.4byte	.LASF153
+ 2176 0d0b 29040000 		.4byte	.LASF154
  2177 0d0f 0B       		.byte	0xb
  2178 0d10 00       		.byte	0
- 2179 0d11 2C040000 		.4byte	.LASF153
+ 2179 0d11 F5030000 		.4byte	.LASF153
  2180 0d15 00       		.byte	0
  2181              		.section	.debug_abbrev,"",%progbits
  2182              	.Ldebug_abbrev0:
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  2221 0026 0B       		.uleb128 0xb
  2222 0027 49       		.uleb128 0x49
  2223 0028 13       		.uleb128 0x13
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 40
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s 			page 40
 
 
  2224 0029 00       		.byte	0
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  2278 005f 13       		.uleb128 0x13
  2279 0060 00       		.byte	0
  2280 0061 00       		.byte	0
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 41
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s 			page 41
 
 
  2281 0062 09       		.uleb128 0x9
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  2335 0098 13       		.uleb128 0x13
  2336 0099 38       		.uleb128 0x38
  2337 009a 0B       		.uleb128 0xb
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 42
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s 			page 42
 
 
  2338 009b 00       		.byte	0
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  2392 00d1 0B       		.uleb128 0xb
  2393 00d2 3B       		.uleb128 0x3b
  2394 00d3 0B       		.uleb128 0xb
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 43
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s 			page 43
 
 
  2395 00d4 01       		.uleb128 0x1
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  2449 010a 05       		.uleb128 0x5
  2450 010b 01       		.uleb128 0x1
  2451 010c 13       		.uleb128 0x13
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 44
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s 			page 44
 
 
  2452 010d 00       		.byte	0
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  2506 0143 3B       		.uleb128 0x3b
  2507 0144 05       		.uleb128 0x5
  2508 0145 01       		.uleb128 0x1
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 45
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s 			page 45
 
 
  2509 0146 13       		.uleb128 0x13
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  2563 017c 00       		.byte	0
  2564 017d 20       		.uleb128 0x20
  2565 017e 26       		.uleb128 0x26
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 46
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s 			page 46
 
 
  2566 017f 00       		.byte	0
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  2620 01b6 3B       		.uleb128 0x3b
  2621 01b7 0B       		.uleb128 0xb
  2622 01b8 49       		.uleb128 0x49
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 47
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s 			page 47
 
 
  2623 01b9 13       		.uleb128 0x13
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  2677 01f2 27       		.uleb128 0x27
  2678 01f3 898201   		.uleb128 0x4109
  2679 01f6 01       		.byte	0x1
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 48
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s 			page 48
 
 
  2680 01f7 11       		.uleb128 0x11
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  2734 0232 13       		.uleb128 0x13
  2735 0233 02       		.uleb128 0x2
  2736 0234 18       		.uleb128 0x18
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 49
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s 			page 49
 
 
  2737 0235 00       		.byte	0
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  2791 026d 3A       		.uleb128 0x3a
  2792 026e 0B       		.uleb128 0xb
  2793 026f 3B       		.uleb128 0x3b
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 50
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s 			page 50
 
 
  2794 0270 0B       		.uleb128 0xb
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  2848 006d 51       		.byte	0x51
  2849 006e 1F000000 		.4byte	.LVL39-1
  2850 0072 24000000 		.4byte	.LFE7
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 51
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s 			page 51
 
 
  2851 0076 0400     		.2byte	0x4
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  2905 00f2 27000000 		.4byte	.LVL30-1
  2906 00f6 28000000 		.4byte	.LVL30
  2907 00fa 0400     		.2byte	0x4
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 52
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s 			page 52
 
 
  2908 00fc F3       		.byte	0xf3
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  2962 017a 0400     		.2byte	0x4
  2963 017c F3       		.byte	0xf3
  2964 017d 01       		.uleb128 0x1
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 53
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s 			page 53
 
 
  2965 017e 52       		.byte	0x52
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  3019 01fc 0400     		.2byte	0x4
  3020 01fe F3       		.byte	0xf3
  3021 01ff 01       		.uleb128 0x1
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 54
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s 			page 54
 
 
  3022 0200 50       		.byte	0x50
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  3076 027f 01       		.uleb128 0x1
  3077 0280 52       		.byte	0x52
  3078 0281 9F       		.byte	0x9f
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 55
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s 			page 55
 
 
  3079 0282 28000000 		.4byte	.LVL25
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  3133 0301 01       		.uleb128 0x1
  3134 0302 50       		.byte	0x50
  3135 0303 9F       		.byte	0x9f
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 56
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s 			page 56
 
 
  3136 0304 1A000000 		.4byte	.LVL3
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  3190 0384 00000000 		.4byte	0
  3191              	.LLST4:
  3192 0388 00000000 		.4byte	.LVL5
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 57
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s 			page 57
 
 
  3193 038c 18000000 		.4byte	.LVL8
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  3247 040b 12000000 		.4byte	.LVL15
  3248 040f 0100     		.2byte	0x1
  3249 0411 50       		.byte	0x50
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 58
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s 			page 58
 
 
  3250 0412 12000000 		.4byte	.LVL15
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  3304 0491 31000000 		.4byte	.LVL19-1
  3305 0495 36000000 		.4byte	.LVL20
  3306 0499 0100     		.2byte	0x1
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 59
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s 			page 59
 
 
  3307 049b 56       		.byte	0x56
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  3361 0038 00000000 		.4byte	.LFB7
  3362 003c 24000000 		.4byte	.LFE7
  3363 0040 00000000 		.4byte	.LFB8
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 60
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s 			page 60
 
 
  3364 0044 2C000000 		.4byte	.LFE8
@@ -3546,8 +3546,8 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  3366 004c 00000000 		.4byte	0
  3367              		.section	.debug_line,"",%progbits
  3368              	.Ldebug_line0:
- 3369 0000 A7030000 		.section	.debug_str,"MS",%progbits,1
- 3369      0200D102 
+ 3369 0000 77030000 		.section	.debug_str,"MS",%progbits,1
+ 3369      0200A102 
  3369      00000201 
  3369      FB0E0D00 
  3369      01010101 
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  3392      746F6D62 
  3392      5F737461 
  3392      746500
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 61
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s 			page 61
 
 
  3393              	.LASF114:
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  3418      5F617267 
  3418      7300
  3419              	.LASF54:
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 62
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s 			page 62
 
 
  3420 0137 5F636F6F 		.ascii	"_cookie\000"
@@ -3718,7 +3718,7 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  3450      6E00
  3451              	.LASF140:
  3452 01c2 636D705F 		.ascii	"cmp_mem_access_get_pos\000"
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 63
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s 			page 63
 
 
  3452      6D656D5F 
@@ -3778,7 +3778,7 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  3473      2D667261 
  3474 02ef 202D666E 		.ascii	" -fno-strict-aliasing -fstack-protector-all -ffunct"
  3474      6F2D7374 
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 64
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s 			page 64
 
 
  3474      72696374 
@@ -3812,450 +3812,452 @@ ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 1
  3485              	.LASF52:
  3486 0390 5F66696C 		.ascii	"_file\000"
  3486      6500
- 3487              	.LASF150:
- 3488 0396 433A5C55 		.ascii	"C:\\Users\\noeta\\Desktop\\TPs robotique\\CamReg_co"
- 3488      73657273 
- 3488      5C6E6F65 
- 3488      74615C44 
- 3488      65736B74 
- 3489 03c4 72726563 		.ascii	"rrection\000"
- 3489      74696F6E 
- 3489      00
- 3490              	.LASF131:
- 3491 03cd 636D705F 		.ascii	"cmp_writer\000"
- 3491      77726974 
- 3491      657200
- 3492              	.LASF91:
- 3493 03d8 5F6E696F 		.ascii	"_niobs\000"
- 3493      627300
- 3494              	.LASF144:
- 3495 03df 64617461 		.ascii	"data\000"
- 3495      00
- 3496              	.LASF136:
- 3497 03e4 73697A65 		.ascii	"size\000"
- 3497      00
- 3498              	.LASF8:
- 3499 03e9 73686F72 		.ascii	"short unsigned int\000"
- 3499      7420756E 
- 3499      7369676E 
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 65
+ 3487              	.LASF131:
+ 3488 0396 636D705F 		.ascii	"cmp_writer\000"
+ 3488      77726974 
+ 3488      657200
+ 3489              	.LASF91:
+ 3490 03a1 5F6E696F 		.ascii	"_niobs\000"
+ 3490      627300
+ 3491              	.LASF144:
+ 3492 03a8 64617461 		.ascii	"data\000"
+ 3492      00
+ 3493              	.LASF136:
+ 3494 03ad 73697A65 		.ascii	"size\000"
+ 3494      00
+ 3495              	.LASF8:
+ 3496 03b2 73686F72 		.ascii	"short unsigned int\000"
+ 3496      7420756E 
+ 3496      7369676E 
+ 3496      65642069 
+ 3496      6E7400
+ 3497              	.LASF85:
+ 3498 03c5 5F617465 		.ascii	"_atexit0\000"
+ 3498      78697430 
+ 3498      00
+ 3499              	.LASF108:
+ 3500 03ce 5F736967 		.ascii	"_signal_buf\000"
+ 3500      6E616C5F 
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s 			page 65
 
 
- 3499      65642069 
- 3499      6E7400
- 3500              	.LASF85:
- 3501 03fc 5F617465 		.ascii	"_atexit0\000"
- 3501      78697430 
- 3501      00
- 3502              	.LASF108:
- 3503 0405 5F736967 		.ascii	"_signal_buf\000"
- 3503      6E616C5F 
- 3503      62756600 
- 3504              	.LASF99:
- 3505 0411 5F617363 		.ascii	"_asctime_buf\000"
- 3505      74696D65 
- 3505      5F627566 
- 3505      00
- 3506              	.LASF78:
- 3507 041e 5F726573 		.ascii	"_result\000"
- 3507      756C7400 
- 3508              	.LASF16:
- 3509 0426 5F5F7763 		.ascii	"__wch\000"
- 3509      6800
- 3510              	.LASF153:
- 3511 042c 6D656D63 		.ascii	"memcpy\000"
- 3511      707900
- 3512              	.LASF12:
- 3513 0433 5F4C4F43 		.ascii	"_LOCK_T\000"
- 3513      4B5F5400 
- 3514              	.LASF15:
- 3515 043b 77696E74 		.ascii	"wint_t\000"
- 3515      5F7400
- 3516              	.LASF139:
- 3517 0442 636D705F 		.ascii	"cmp_mem_access_get_ptr_at_pos\000"
- 3517      6D656D5F 
- 3517      61636365 
- 3517      73735F67 
- 3517      65745F70 
- 3518              	.LASF154:
- 3519 0460 5F5F6275 		.ascii	"__builtin_memcpy\000"
- 3519      696C7469 
- 3519      6E5F6D65 
- 3519      6D637079 
- 3519      00
- 3520              	.LASF64:
- 3521 0471 5F6C6F63 		.ascii	"_lock\000"
- 3521      6B00
- 3522              	.LASF137:
- 3523 0477 636D705F 		.ascii	"cmp_mem_access_t\000"
- 3523      6D656D5F 
- 3523      61636365 
- 3523      73735F74 
- 3523      00
- 3524              	.LASF66:
- 3525 0488 5F666C61 		.ascii	"_flags2\000"
- 3525      67733200 
- 3526              	.LASF147:
- 3527 0490 636D705F 		.ascii	"cmp_mem_reader\000"
- 3527      6D656D5F 
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 66
+ 3500      62756600 
+ 3501              	.LASF99:
+ 3502 03da 5F617363 		.ascii	"_asctime_buf\000"
+ 3502      74696D65 
+ 3502      5F627566 
+ 3502      00
+ 3503              	.LASF78:
+ 3504 03e7 5F726573 		.ascii	"_result\000"
+ 3504      756C7400 
+ 3505              	.LASF16:
+ 3506 03ef 5F5F7763 		.ascii	"__wch\000"
+ 3506      6800
+ 3507              	.LASF153:
+ 3508 03f5 6D656D63 		.ascii	"memcpy\000"
+ 3508      707900
+ 3509              	.LASF12:
+ 3510 03fc 5F4C4F43 		.ascii	"_LOCK_T\000"
+ 3510      4B5F5400 
+ 3511              	.LASF15:
+ 3512 0404 77696E74 		.ascii	"wint_t\000"
+ 3512      5F7400
+ 3513              	.LASF139:
+ 3514 040b 636D705F 		.ascii	"cmp_mem_access_get_ptr_at_pos\000"
+ 3514      6D656D5F 
+ 3514      61636365 
+ 3514      73735F67 
+ 3514      65745F70 
+ 3515              	.LASF154:
+ 3516 0429 5F5F6275 		.ascii	"__builtin_memcpy\000"
+ 3516      696C7469 
+ 3516      6E5F6D65 
+ 3516      6D637079 
+ 3516      00
+ 3517              	.LASF64:
+ 3518 043a 5F6C6F63 		.ascii	"_lock\000"
+ 3518      6B00
+ 3519              	.LASF137:
+ 3520 0440 636D705F 		.ascii	"cmp_mem_access_t\000"
+ 3520      6D656D5F 
+ 3520      61636365 
+ 3520      73735F74 
+ 3520      00
+ 3521              	.LASF66:
+ 3522 0451 5F666C61 		.ascii	"_flags2\000"
+ 3522      67733200 
+ 3523              	.LASF147:
+ 3524 0459 636D705F 		.ascii	"cmp_mem_reader\000"
+ 3524      6D656D5F 
+ 3524      72656164 
+ 3524      657200
+ 3525              	.LASF56:
+ 3526 0468 5F777269 		.ascii	"_write\000"
+ 3526      746500
+ 3527              	.LASF35:
+ 3528 046f 5F5F746D 		.ascii	"__tm_year\000"
+ 3528      5F796561 
+ 3528      7200
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s 			page 66
 
 
- 3527      72656164 
- 3527      657200
- 3528              	.LASF56:
- 3529 049f 5F777269 		.ascii	"_write\000"
- 3529      746500
- 3530              	.LASF35:
- 3531 04a6 5F5F746D 		.ascii	"__tm_year\000"
- 3531      5F796561 
- 3531      7200
- 3532              	.LASF125:
- 3533 04b0 636D705F 		.ascii	"cmp_reader\000"
- 3533      72656164 
- 3533      657200
- 3534              	.LASF2:
- 3535 04bb 6C6F6E67 		.ascii	"long double\000"
- 3535      20646F75 
- 3535      626C6500 
- 3536              	.LASF152:
- 3537 04c7 636D705F 		.ascii	"cmp_init\000"
- 3537      696E6974 
- 3537      00
- 3538              	.LASF127:
- 3539 04d0 636D705F 		.ascii	"cmp_ctx_s\000"
- 3539      6374785F 
- 3539      7300
- 3540              	.LASF116:
- 3541 04da 5F6E6578 		.ascii	"_nextf\000"
- 3541      746600
- 3542              	.LASF145:
- 3543 04e1 636D705F 		.ascii	"cmp_mem_writer_ro\000"
- 3543      6D656D5F 
- 3543      77726974 
- 3543      65725F72 
- 3543      6F00
- 3544              	.LASF34:
- 3545 04f3 5F5F746D 		.ascii	"__tm_mon\000"
- 3545      5F6D6F6E 
- 3545      00
- 3546              	.LASF44:
- 3547 04fc 5F617465 		.ascii	"_atexit\000"
- 3547      78697400 
- 3548              	.LASF123:
- 3549 0504 7375626F 		.ascii	"suboptarg\000"
- 3549      70746172 
- 3549      6700
- 3550              	.LASF76:
- 3551 050e 5F5F7364 		.ascii	"__sdidinit\000"
- 3551      6964696E 
- 3551      697400
- 3552              	.LASF13:
- 3553 0519 5F6F6666 		.ascii	"_off_t\000"
- 3553      5F7400
- 3554              	.LASF129:
- 3555 0520 72656164 		.ascii	"read\000"
- 3555      00
- 3556              	.LASF132:
- 3557 0525 666C6F61 		.ascii	"float\000"
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 67
+ 3529              	.LASF125:
+ 3530 0479 636D705F 		.ascii	"cmp_reader\000"
+ 3530      72656164 
+ 3530      657200
+ 3531              	.LASF2:
+ 3532 0484 6C6F6E67 		.ascii	"long double\000"
+ 3532      20646F75 
+ 3532      626C6500 
+ 3533              	.LASF152:
+ 3534 0490 636D705F 		.ascii	"cmp_init\000"
+ 3534      696E6974 
+ 3534      00
+ 3535              	.LASF127:
+ 3536 0499 636D705F 		.ascii	"cmp_ctx_s\000"
+ 3536      6374785F 
+ 3536      7300
+ 3537              	.LASF116:
+ 3538 04a3 5F6E6578 		.ascii	"_nextf\000"
+ 3538      746600
+ 3539              	.LASF145:
+ 3540 04aa 636D705F 		.ascii	"cmp_mem_writer_ro\000"
+ 3540      6D656D5F 
+ 3540      77726974 
+ 3540      65725F72 
+ 3540      6F00
+ 3541              	.LASF34:
+ 3542 04bc 5F5F746D 		.ascii	"__tm_mon\000"
+ 3542      5F6D6F6E 
+ 3542      00
+ 3543              	.LASF44:
+ 3544 04c5 5F617465 		.ascii	"_atexit\000"
+ 3544      78697400 
+ 3545              	.LASF123:
+ 3546 04cd 7375626F 		.ascii	"suboptarg\000"
+ 3546      70746172 
+ 3546      6700
+ 3547              	.LASF76:
+ 3548 04d7 5F5F7364 		.ascii	"__sdidinit\000"
+ 3548      6964696E 
+ 3548      697400
+ 3549              	.LASF13:
+ 3550 04e2 5F6F6666 		.ascii	"_off_t\000"
+ 3550      5F7400
+ 3551              	.LASF129:
+ 3552 04e9 72656164 		.ascii	"read\000"
+ 3552      00
+ 3553              	.LASF132:
+ 3554 04ee 666C6F61 		.ascii	"float\000"
+ 3554      7400
+ 3555              	.LASF81:
+ 3556 04f4 5F667265 		.ascii	"_freelist\000"
+ 3556      656C6973 
+ 3556      7400
+ 3557              	.LASF128:
+ 3558 04fe 6572726F 		.ascii	"error\000"
+ 3558      7200
+ 3559              	.LASF106:
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s 			page 67
 
 
- 3557      7400
- 3558              	.LASF81:
- 3559 052b 5F667265 		.ascii	"_freelist\000"
- 3559      656C6973 
- 3559      7400
- 3560              	.LASF128:
- 3561 0535 6572726F 		.ascii	"error\000"
- 3561      7200
- 3562              	.LASF106:
- 3563 053b 5F776374 		.ascii	"_wctomb_state\000"
- 3563      6F6D625F 
- 3563      73746174 
- 3563      6500
- 3564              	.LASF126:
- 3565 0549 5F426F6F 		.ascii	"_Bool\000"
- 3565      6C00
- 3566              	.LASF6:
- 3567 054f 756E7369 		.ascii	"unsigned char\000"
- 3567      676E6564 
- 3567      20636861 
- 3567      7200
- 3568              	.LASF84:
- 3569 055d 5F6E6577 		.ascii	"_new\000"
- 3569      00
- 3570              	.LASF115:
- 3571 0562 5F685F65 		.ascii	"_h_errno\000"
- 3571      72726E6F 
- 3571      00
- 3572              	.LASF7:
- 3573 056b 73686F72 		.ascii	"short int\000"
- 3573      7420696E 
- 3573      7400
- 3574              	.LASF37:
- 3575 0575 5F5F746D 		.ascii	"__tm_yday\000"
- 3575      5F796461 
- 3575      7900
- 3576              	.LASF47:
- 3577 057f 5F5F7362 		.ascii	"__sbuf\000"
- 3577      756600
- 3578              	.LASF92:
- 3579 0586 5F696F62 		.ascii	"_iobs\000"
- 3579      7300
- 3580              	.LASF89:
- 3581 058c 5F5F4649 		.ascii	"__FILE\000"
- 3581      4C4500
- 3582              	.LASF20:
- 3583 0593 5F6D6273 		.ascii	"_mbstate_t\000"
- 3583      74617465 
- 3583      5F7400
- 3584              	.LASF50:
- 3585 059e 5F5F7346 		.ascii	"__sFILE\000"
- 3585      494C4500 
- 3586              	.LASF65:
- 3587 05a6 5F6D6273 		.ascii	"_mbstate\000"
- 3587      74617465 
- 3587      00
- 3588              	.LASF102:
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 68
+ 3560 0504 5F776374 		.ascii	"_wctomb_state\000"
+ 3560      6F6D625F 
+ 3560      73746174 
+ 3560      6500
+ 3561              	.LASF126:
+ 3562 0512 5F426F6F 		.ascii	"_Bool\000"
+ 3562      6C00
+ 3563              	.LASF6:
+ 3564 0518 756E7369 		.ascii	"unsigned char\000"
+ 3564      676E6564 
+ 3564      20636861 
+ 3564      7200
+ 3565              	.LASF84:
+ 3566 0526 5F6E6577 		.ascii	"_new\000"
+ 3566      00
+ 3567              	.LASF115:
+ 3568 052b 5F685F65 		.ascii	"_h_errno\000"
+ 3568      72726E6F 
+ 3568      00
+ 3569              	.LASF7:
+ 3570 0534 73686F72 		.ascii	"short int\000"
+ 3570      7420696E 
+ 3570      7400
+ 3571              	.LASF37:
+ 3572 053e 5F5F746D 		.ascii	"__tm_yday\000"
+ 3572      5F796461 
+ 3572      7900
+ 3573              	.LASF47:
+ 3574 0548 5F5F7362 		.ascii	"__sbuf\000"
+ 3574      756600
+ 3575              	.LASF92:
+ 3576 054f 5F696F62 		.ascii	"_iobs\000"
+ 3576      7300
+ 3577              	.LASF89:
+ 3578 0555 5F5F4649 		.ascii	"__FILE\000"
+ 3578      4C4500
+ 3579              	.LASF20:
+ 3580 055c 5F6D6273 		.ascii	"_mbstate_t\000"
+ 3580      74617465 
+ 3580      5F7400
+ 3581              	.LASF50:
+ 3582 0567 5F5F7346 		.ascii	"__sFILE\000"
+ 3582      494C4500 
+ 3583              	.LASF65:
+ 3584 056f 5F6D6273 		.ascii	"_mbstate\000"
+ 3584      74617465 
+ 3584      00
+ 3585              	.LASF102:
+ 3586 0578 5F72616E 		.ascii	"_rand_next\000"
+ 3586      645F6E65 
+ 3586      787400
+ 3587              	.LASF104:
+ 3588 0583 5F6D626C 		.ascii	"_mblen_state\000"
+ 3588      656E5F73 
+ 3588      74617465 
+ 3588      00
+ 3589              	.LASF72:
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s 			page 68
 
 
- 3589 05af 5F72616E 		.ascii	"_rand_next\000"
- 3589      645F6E65 
- 3589      787400
- 3590              	.LASF104:
- 3591 05ba 5F6D626C 		.ascii	"_mblen_state\000"
- 3591      656E5F73 
- 3591      74617465 
- 3591      00
- 3592              	.LASF72:
- 3593 05c7 5F696E63 		.ascii	"_inc\000"
- 3593      00
- 3594              	.LASF45:
- 3595 05cc 5F696E64 		.ascii	"_ind\000"
- 3595      00
- 3596              	.LASF75:
- 3597 05d1 5F6C6F63 		.ascii	"_locale\000"
- 3597      616C6500 
- 3598              	.LASF77:
- 3599 05d9 5F5F636C 		.ascii	"__cleanup\000"
- 3599      65616E75 
- 3599      7000
- 3600              	.LASF74:
- 3601 05e3 5F756E73 		.ascii	"_unspecified_locale_info\000"
- 3601      70656369 
- 3601      66696564 
- 3601      5F6C6F63 
- 3601      616C655F 
- 3602              	.LASF151:
- 3603 05fc 5F5F7374 		.ascii	"__stack_chk_fail\000"
- 3603      61636B5F 
- 3603      63686B5F 
- 3603      6661696C 
- 3603      00
- 3604              	.LASF25:
- 3605 060d 5F6D6178 		.ascii	"_maxwds\000"
- 3605      77647300 
- 3606              	.LASF67:
- 3607 0615 5F726565 		.ascii	"_reent\000"
- 3607      6E7400
- 3608              	.LASF94:
- 3609 061c 5F736565 		.ascii	"_seed\000"
- 3609      6400
- 3610              	.LASF18:
- 3611 0622 5F5F636F 		.ascii	"__count\000"
- 3611      756E7400 
- 3612              	.LASF119:
- 3613 062a 5F5F6C6F 		.ascii	"__lock\000"
- 3613      636B00
- 3614              	.LASF19:
- 3615 0631 5F5F7661 		.ascii	"__value\000"
- 3615      6C756500 
- 3616              	.LASF57:
- 3617 0639 5F736565 		.ascii	"_seek\000"
- 3617      6B00
- 3618              	.LASF121:
- 3619 063f 5F696D70 		.ascii	"_impure_ptr\000"
- 3619      7572655F 
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 69
+ 3590 0590 5F696E63 		.ascii	"_inc\000"
+ 3590      00
+ 3591              	.LASF45:
+ 3592 0595 5F696E64 		.ascii	"_ind\000"
+ 3592      00
+ 3593              	.LASF75:
+ 3594 059a 5F6C6F63 		.ascii	"_locale\000"
+ 3594      616C6500 
+ 3595              	.LASF77:
+ 3596 05a2 5F5F636C 		.ascii	"__cleanup\000"
+ 3596      65616E75 
+ 3596      7000
+ 3597              	.LASF74:
+ 3598 05ac 5F756E73 		.ascii	"_unspecified_locale_info\000"
+ 3598      70656369 
+ 3598      66696564 
+ 3598      5F6C6F63 
+ 3598      616C655F 
+ 3599              	.LASF151:
+ 3600 05c5 5F5F7374 		.ascii	"__stack_chk_fail\000"
+ 3600      61636B5F 
+ 3600      63686B5F 
+ 3600      6661696C 
+ 3600      00
+ 3601              	.LASF25:
+ 3602 05d6 5F6D6178 		.ascii	"_maxwds\000"
+ 3602      77647300 
+ 3603              	.LASF67:
+ 3604 05de 5F726565 		.ascii	"_reent\000"
+ 3604      6E7400
+ 3605              	.LASF94:
+ 3606 05e5 5F736565 		.ascii	"_seed\000"
+ 3606      6400
+ 3607              	.LASF18:
+ 3608 05eb 5F5F636F 		.ascii	"__count\000"
+ 3608      756E7400 
+ 3609              	.LASF119:
+ 3610 05f3 5F5F6C6F 		.ascii	"__lock\000"
+ 3610      636B00
+ 3611              	.LASF19:
+ 3612 05fa 5F5F7661 		.ascii	"__value\000"
+ 3612      6C756500 
+ 3613              	.LASF57:
+ 3614 0602 5F736565 		.ascii	"_seek\000"
+ 3614      6B00
+ 3615              	.LASF121:
+ 3616 0608 5F696D70 		.ascii	"_impure_ptr\000"
+ 3616      7572655F 
+ 3616      70747200 
+ 3617              	.LASF58:
+ 3618 0614 5F636C6F 		.ascii	"_close\000"
+ 3618      736500
+ 3619              	.LASF14:
+ 3620 061b 5F66706F 		.ascii	"_fpos_t\000"
+ 3620      735F7400 
+ 3621              	.LASF68:
+ 3622 0623 5F657272 		.ascii	"_errno\000"
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s 			page 69
 
 
- 3619      70747200 
- 3620              	.LASF14:
- 3621 064b 5F66706F 		.ascii	"_fpos_t\000"
- 3621      735F7400 
- 3622              	.LASF68:
- 3623 0653 5F657272 		.ascii	"_errno\000"
- 3623      6E6F00
- 3624              	.LASF22:
- 3625 065a 63686172 		.ascii	"char\000"
- 3625      00
- 3626              	.LASF31:
- 3627 065f 5F5F746D 		.ascii	"__tm_min\000"
- 3627      5F6D696E 
- 3627      00
+ 3622      6E6F00
+ 3623              	.LASF22:
+ 3624 062a 63686172 		.ascii	"char\000"
+ 3624      00
+ 3625              	.LASF150:
+ 3626 062f 433A5C55 		.ascii	"C:\\Users\\antoi\\OneDrive\\Bureau\\Projet_epuck2\\"
+ 3626      73657273 
+ 3626      5C616E74 
+ 3626      6F695C4F 
+ 3626      6E654472 
+ 3627 065c 43616D52 		.ascii	"CamReg_correction\000"
+ 3627      65675F63 
+ 3627      6F727265 
+ 3627      6374696F 
+ 3627      6E00
  3628              	.LASF141:
- 3629 0668 636D705F 		.ascii	"cmp_mem_access_set_pos\000"
+ 3629 066e 636D705F 		.ascii	"cmp_mem_access_set_pos\000"
  3629      6D656D5F 
  3629      61636365 
  3629      73735F73 
  3629      65745F70 
  3630              	.LASF146:
- 3631 067f 636D705F 		.ascii	"cmp_mem_writer\000"
+ 3631 0685 636D705F 		.ascii	"cmp_mem_writer\000"
  3631      6D656D5F 
  3631      77726974 
  3631      657200
  3632              	.LASF135:
- 3633 068e 696E6465 		.ascii	"index\000"
+ 3633 0694 696E6465 		.ascii	"index\000"
  3633      7800
  3634              	.LASF124:
- 3635 0694 75696E74 		.ascii	"uint8_t\000"
+ 3635 069a 75696E74 		.ascii	"uint8_t\000"
  3635      385F7400 
  3636              	.LASF95:
- 3637 069c 5F6D756C 		.ascii	"_mult\000"
+ 3637 06a2 5F6D756C 		.ascii	"_mult\000"
  3637      7400
  3638              	.LASF24:
- 3639 06a2 5F6E6578 		.ascii	"_next\000"
+ 3639 06a8 5F6E6578 		.ascii	"_next\000"
  3639      7400
  3640              	.LASF98:
- 3641 06a8 5F737472 		.ascii	"_strtok_last\000"
+ 3641 06ae 5F737472 		.ascii	"_strtok_last\000"
  3641      746F6B5F 
  3641      6C617374 
  3641      00
  3642              	.LASF42:
- 3643 06b5 5F666E74 		.ascii	"_fntypes\000"
+ 3643 06bb 5F666E74 		.ascii	"_fntypes\000"
  3643      79706573 
  3643      00
  3644              	.LASF96:
- 3645 06be 5F616464 		.ascii	"_add\000"
+ 3645 06c4 5F616464 		.ascii	"_add\000"
  3645      00
  3646              	.LASF23:
- 3647 06c3 5F5F554C 		.ascii	"__ULong\000"
+ 3647 06c9 5F5F554C 		.ascii	"__ULong\000"
  3647      6F6E6700 
  3648              	.LASF122:
- 3649 06cb 5F676C6F 		.ascii	"_global_impure_ptr\000"
+ 3649 06d1 5F676C6F 		.ascii	"_global_impure_ptr\000"
  3649      62616C5F 
  3649      696D7075 
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s 			page 70
+
+
  3649      72655F70 
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 70
-
-
  3649      747200
  3650              	.LASF97:
- 3651 06de 5F756E75 		.ascii	"_unused_rand\000"
+ 3651 06e4 5F756E75 		.ascii	"_unused_rand\000"
  3651      7365645F 
  3651      72616E64 
  3651      00
  3652              	.LASF142:
- 3653 06eb 636D705F 		.ascii	"cmp_mem_access_ro_init\000"
+ 3653 06f1 636D705F 		.ascii	"cmp_mem_access_ro_init\000"
  3653      6D656D5F 
  3653      61636365 
  3653      73735F72 
  3653      6F5F696E 
  3654              	.LASF27:
- 3655 0702 5F776473 		.ascii	"_wds\000"
+ 3655 0708 5F776473 		.ascii	"_wds\000"
  3655      00
  3656              	.LASF36:
- 3657 0707 5F5F746D 		.ascii	"__tm_wday\000"
+ 3657 070d 5F5F746D 		.ascii	"__tm_wday\000"
  3657      5F776461 
  3657      7900
  3658              	.LASF90:
- 3659 0711 5F676C75 		.ascii	"_glue\000"
+ 3659 0717 5F676C75 		.ascii	"_glue\000"
  3659      6500
  3660              	.LASF117:
- 3661 0717 5F6E6D61 		.ascii	"_nmalloc\000"
+ 3661 071d 5F6E6D61 		.ascii	"_nmalloc\000"
  3661      6C6C6F63 
  3661      00
  3662              	.LASF107:
- 3663 0720 5F6C3634 		.ascii	"_l64a_buf\000"
+ 3663 0726 5F6C3634 		.ascii	"_l64a_buf\000"
  3663      615F6275 
  3663      6600
  3664              	.LASF86:
- 3665 072a 5F736967 		.ascii	"_sig_func\000"
+ 3665 0730 5F736967 		.ascii	"_sig_func\000"
  3665      5F66756E 
  3665      6300
  3666              	.LASF60:
- 3667 0734 5F6E6275 		.ascii	"_nbuf\000"
+ 3667 073a 5F6E6275 		.ascii	"_nbuf\000"
  3667      6600
  3668              	.LASF118:
- 3669 073a 5F756E75 		.ascii	"_unused\000"
+ 3669 0740 5F756E75 		.ascii	"_unused\000"
  3669      73656400 
  3670              	.LASF38:
- 3671 0742 5F5F746D 		.ascii	"__tm_isdst\000"
+ 3671 0748 5F5F746D 		.ascii	"__tm_isdst\000"
  3671      5F697364 
  3671      737400
  3672              	.LASF100:
- 3673 074d 5F6C6F63 		.ascii	"_localtime_buf\000"
+ 3673 0753 5F6C6F63 		.ascii	"_localtime_buf\000"
  3673      616C7469 
  3673      6D655F62 
  3673      756600
- 3674              	.LASF58:
- 3675 075c 5F636C6F 		.ascii	"_close\000"
- 3675      736500
+ 3674              	.LASF31:
+ 3675 0762 5F5F746D 		.ascii	"__tm_min\000"
+ 3675      5F6D696E 
+ 3675      00
  3676              	.LASF103:
- 3677 0763 5F723438 		.ascii	"_r48\000"
+ 3677 076b 5F723438 		.ascii	"_r48\000"
  3677      00
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s 			page 71
+
+
  3678              	.LASF138:
- 3679 0768 636D705F 		.ascii	"cmp_mem_access_pos_is_valid\000"
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 71
-
-
+ 3679 0770 636D705F 		.ascii	"cmp_mem_access_pos_is_valid\000"
  3679      6D656D5F 
  3679      61636365 
  3679      73735F70 
  3679      6F735F69 
  3680              	.LASF105:
- 3681 0784 5F6D6274 		.ascii	"_mbtowc_state\000"
+ 3681 078c 5F6D6274 		.ascii	"_mbtowc_state\000"
  3681      6F77635F 
  3681      73746174 
  3681      6500
  3682              	.LASF80:
- 3683 0792 5F703573 		.ascii	"_p5s\000"
+ 3683 079a 5F703573 		.ascii	"_p5s\000"
  3683      00
  3684              	.LASF33:
- 3685 0797 5F5F746D 		.ascii	"__tm_mday\000"
+ 3685 079f 5F5F746D 		.ascii	"__tm_mday\000"
  3685      5F6D6461 
  3685      7900
  3686              	.LASF143:
- 3687 07a1 636D705F 		.ascii	"cmp_mem_access_init\000"
+ 3687 07a9 636D705F 		.ascii	"cmp_mem_access_init\000"
  3687      6D656D5F 
  3687      61636365 
  3687      73735F69 
  3687      6E697400 
  3688              		.ident	"GCC: (GNU Tools for Arm Embedded Processors 7-2017-q4-major) 7.2.1 20170904 (release) [ARM
-ARM GAS  C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s 			page 72
+ARM GAS  C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s 			page 72
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 cmp_mem_access.c
-C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s:18     .text.cmp_mem_writer_ro:00000000 $t
-C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s:25     .text.cmp_mem_writer_ro:00000000 cmp_mem_writer_ro
-C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s:63     .text.cmp_mem_writer_ro:00000020 $d
-C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s:68     .text.cmp_mem_writer:00000000 $t
-C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s:75     .text.cmp_mem_writer:00000000 cmp_mem_writer
-C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s:146    .text.cmp_mem_writer:0000003c $d
-C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s:151    .text.cmp_mem_reader:00000000 $t
-C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s:158    .text.cmp_mem_reader:00000000 cmp_mem_reader
-C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s:231    .text.cmp_mem_reader:00000040 $d
-C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s:236    .text.cmp_mem_access_init:00000000 $t
-C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s:244    .text.cmp_mem_access_init:00000000 cmp_mem_access_init
-C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s:304    .text.cmp_mem_access_init:0000002c $d
-C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s:311    .text.cmp_mem_access_ro_init:00000000 $t
-C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s:319    .text.cmp_mem_access_ro_init:00000000 cmp_mem_access_ro_init
-C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s:379    .text.cmp_mem_access_ro_init:0000002c $d
-C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s:386    .text.cmp_mem_access_get_pos:00000000 $t
-C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s:394    .text.cmp_mem_access_get_pos:00000000 cmp_mem_access_get_pos
-C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s:431    .text.cmp_mem_access_get_pos:00000020 $d
-C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s:436    .text.cmp_mem_access_set_pos:00000000 $t
-C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s:444    .text.cmp_mem_access_set_pos:00000000 cmp_mem_access_set_pos
-C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s:480    .text.cmp_mem_access_set_pos:00000020 $d
-C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s:485    .text.cmp_mem_access_get_ptr_at_pos:00000000 $t
-C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s:493    .text.cmp_mem_access_get_ptr_at_pos:00000000 cmp_mem_access_get_ptr_at_pos
-C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s:532    .text.cmp_mem_access_get_ptr_at_pos:00000020 $d
-C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s:537    .text.cmp_mem_access_pos_is_valid:00000000 $t
-C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s:545    .text.cmp_mem_access_pos_is_valid:00000000 cmp_mem_access_pos_is_valid
-C:\Users\noeta\AppData\Local\Temp\ccSSQRwh.s:587    .text.cmp_mem_access_pos_is_valid:00000028 $d
+C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s:18     .text.cmp_mem_writer_ro:00000000 $t
+C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s:25     .text.cmp_mem_writer_ro:00000000 cmp_mem_writer_ro
+C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s:63     .text.cmp_mem_writer_ro:00000020 $d
+C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s:68     .text.cmp_mem_writer:00000000 $t
+C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s:75     .text.cmp_mem_writer:00000000 cmp_mem_writer
+C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s:146    .text.cmp_mem_writer:0000003c $d
+C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s:151    .text.cmp_mem_reader:00000000 $t
+C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s:158    .text.cmp_mem_reader:00000000 cmp_mem_reader
+C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s:231    .text.cmp_mem_reader:00000040 $d
+C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s:236    .text.cmp_mem_access_init:00000000 $t
+C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s:244    .text.cmp_mem_access_init:00000000 cmp_mem_access_init
+C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s:304    .text.cmp_mem_access_init:0000002c $d
+C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s:311    .text.cmp_mem_access_ro_init:00000000 $t
+C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s:319    .text.cmp_mem_access_ro_init:00000000 cmp_mem_access_ro_init
+C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s:379    .text.cmp_mem_access_ro_init:0000002c $d
+C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s:386    .text.cmp_mem_access_get_pos:00000000 $t
+C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s:394    .text.cmp_mem_access_get_pos:00000000 cmp_mem_access_get_pos
+C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s:431    .text.cmp_mem_access_get_pos:00000020 $d
+C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s:436    .text.cmp_mem_access_set_pos:00000000 $t
+C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s:444    .text.cmp_mem_access_set_pos:00000000 cmp_mem_access_set_pos
+C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s:480    .text.cmp_mem_access_set_pos:00000020 $d
+C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s:485    .text.cmp_mem_access_get_ptr_at_pos:00000000 $t
+C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s:493    .text.cmp_mem_access_get_ptr_at_pos:00000000 cmp_mem_access_get_ptr_at_pos
+C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s:532    .text.cmp_mem_access_get_ptr_at_pos:00000020 $d
+C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s:537    .text.cmp_mem_access_pos_is_valid:00000000 $t
+C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s:545    .text.cmp_mem_access_pos_is_valid:00000000 cmp_mem_access_pos_is_valid
+C:\Users\antoi\AppData\Local\Temp\ccW3M1Ak.s:587    .text.cmp_mem_access_pos_is_valid:00000028 $d
 
 UNDEFINED SYMBOLS
 __stack_chk_fail

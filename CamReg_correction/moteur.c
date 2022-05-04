@@ -10,9 +10,36 @@
 #define RIGHT 1
 #define DISTANCE_TRESHOLD 40
 
+static bool wall_detected = 0;
+
+static THD_WORKING_AREA(waStop_detection, 256);
+static THD_FUNCTION(Stop_detection, arg) {
+
+    chRegSetThreadName(__FUNCTION__);
+    (void)arg;
+    while(1){
+    	if(get_distance() < DISTANCE_TRESHOLD){
+    		wall_detected=TRUE;
+    	}
+    	else{
+    		wall_detected=FALSE;
+    	}
+    	chThdSleepMilliseconds(10);
+    }
+}
+
+void stop_detection_start(void){
+	chThdCreateStatic(waStop_detection, sizeof(waStop_detection), NORMALPRIO+1, Stop_detection, NULL);
+}
+
 void go_foreward(){
-	left_motor_set_speed(FOREWARD_SPEED);
-	right_motor_set_speed(FOREWARD_SPEED);
+	if(!wall_detected){
+		left_motor_set_speed(FOREWARD_SPEED);
+		right_motor_set_speed(FOREWARD_SPEED);
+	}
+	else{
+		stop();
+	}
 }
 
 void stop(){
@@ -31,3 +58,4 @@ void turn(int8_t DIRECTION){
 		stop();
 	}
 }
+
