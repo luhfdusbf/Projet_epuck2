@@ -10,19 +10,18 @@ extern "C" {
 #include "parameter/parameter.h"
 
 
-//constants for the differents parts of the project
-#define IMAGE_BUFFER_SIZE		640
-#define WIDTH_SLOPE				5
-#define MIN_LINE_WIDTH			40
-#define ROTATION_THRESHOLD		10
-#define ROTATION_COEFF			2 
-#define PXTOCM					1570.0f //experimental value
-#define GOAL_DISTANCE 			10.0f
-#define MAX_DISTANCE 			25.0f
-#define ERROR_THRESHOLD			0.1f	//[cm] because of the noise of the camera
-#define KP						800.0f
-#define KI 						3.5f	//must not be zero
-#define MAX_SUM_ERROR 			(MOTOR_SPEED_LIMIT/KI)
+/***constants for the differents parts of the project***/
+#define COLOR_MARGIN	2000	//margin over 19200
+#define DISTANCE_TRESHOLD 	40
+#define NB_STEP_EACH_TURN	4
+
+/***conventions for all the project***/
+#define BLACK		0		//no significant color
+#define RED			1
+#define GREEN		2
+#define BLUE		3
+#define RIGHT 		0
+#define LEFT		1
 
 /** Robot wide IPC bus. */
 extern messagebus_t bus;

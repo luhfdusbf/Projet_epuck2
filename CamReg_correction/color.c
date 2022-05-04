@@ -1,26 +1,15 @@
 #include "ch.h"
 #include "hal.h"
-//#include <chprintf.h>
-//#include <usbcfg.h>
-
 #include <main.h>
 #include <camera/po8030.h>
-
 #include <color.h>
 
-
-#define EPSILON			2000
 #define NB_POINTS		300
-#define BLACK		0
-#define RED			1
-#define GREEN		2
-#define BLUE		3
 
 static uint8_t color = BLACK;
 
 //semaphore
 static BSEMAPHORE_DECL(image_ready_sem, TRUE);
-
 
 static THD_WORKING_AREA(waCaptureImage, 256);
 static THD_FUNCTION(CaptureImage, arg) {
@@ -28,16 +17,18 @@ static THD_FUNCTION(CaptureImage, arg) {
     chRegSetThreadName(__FUNCTION__);
     (void)arg;
 
-	//Takes pixels 0 to IMAGE_BUFFER_SIZE of the line 10 + 11 (minimum 2 lines because reasons)
-	//po8030_advanced_config(FORMAT_RGB565, 0, 10, IMAGE_BUFFER_SIZE, 2, SUBSAMPLING_X1, SUBSAMPLING_X1);
+	//Takes 1/4 pixels at RGB565, in a band of 20 by 240 pixels
     po8030_advanced_config(FORMAT_RGB565,310,0, 20,240, SUBSAMPLING_X4, SUBSAMPLING_X4);
+    //disable auto white balance adjustment
     po8030_set_awb(0);
-    po8030_set_rgb_gain(0x4A, 0x45, 0x5D); //ajuste les gains pour valeur nominale RGB egales
+    //change gains for every color to have equal measurement with white light
+    po8030_set_rgb_gain(0x4A, 0x45, 0x5D);
+
+    //preparations to take one picture
 	dcmi_enable_double_buffering();
 	dcmi_set_capture_mode(CAPTURE_ONE_SHOT);
 	dcmi_prepare();
-
-    while(1){
+    while(TRUE){
         //starts a capture
 		dcmi_capture_start();
 		//waits for the capture to be done
@@ -65,29 +56,32 @@ static THD_FUNCTION(ProcessImage, arg) {
 		//gets the pointer to the array filled with the last image in RGB565    
 		img_buff_ptr = dcmi_get_last_image_ptr();
 
-
 		//Extracts pixels
 		for(uint16_t i = 0 ; i < (2 * NB_POINTS) ; i+=2){
-			red[i/2] = ((img_buff_ptr[i]&0b11111000) >> 2);//5premiers bit >>3 *2
-			green[i/2] = ((img_buff_ptr[i]&0b00000111)<<3)+(((img_buff_ptr[i+1]&0b11100000)>>5));//3bits sur premier byte et 3 sur le 2e
-			blue[i/2] = (img_buff_ptr[i+1]&0b00011111) * 2;//5 derniers bits
+			//5 first bits (>>3)*2,makes RGB values comparable on 6 bits
+			red[i/2] = ((img_buff_ptr[i]&0b11111000) >> 2);
+			//3 bits on the first ptr byte and 3 on the second one
+			green[i/2] = ((img_buff_ptr[i]&0b00000111)<<3)+(((img_buff_ptr[i+1]&0b11100000)>>5));
+			//5 last bits
+			blue[i/2] = (img_buff_ptr[i+1]&0b00011111) * 2;
 		}
-
+		//sum on every pixels, better than mean
 		uint32_t sum_red = 0;
 		uint32_t sum_green = 0;
 		uint32_t sum_blue = 0;
 		for(uint16_t i = 0 ; i < (NB_POINTS) ; i++){
-				sum_red +=(uint32_t) red[i];
-				sum_green += (uint32_t)green[i];
-				sum_blue += (uint32_t)blue[i];
+				sum_red += red[i];
+				sum_green += green[i];
+				sum_blue +=  blue[i];
 		}
-		if((sum_red>(sum_blue+EPSILON))&&((sum_green+EPSILON)<sum_red)){
+		//identification of the most significant color, with an COLOR_MARGIN margin
+		if((sum_red>(sum_blue+COLOR_MARGIN))&&((sum_green+COLOR_MARGIN)<sum_red)){
 			color = RED;
 		}
-		else if(((sum_red+EPSILON)<sum_green)&&(sum_green>(sum_blue+EPSILON))){
+		else if(((sum_red+COLOR_MARGIN)<sum_green)&&(sum_green>(sum_blue+COLOR_MARGIN))){
 			color = GREEN;
 		}
-		else if(((sum_red+EPSILON)<sum_blue)&&((sum_green+EPSILON)<sum_blue)){
+		else if(((sum_red+COLOR_MARGIN)<sum_blue)&&((sum_green+COLOR_MARGIN)<sum_blue)){
 			color = BLUE;
 		}
 		else{
@@ -95,12 +89,12 @@ static THD_FUNCTION(ProcessImage, arg) {
 		}
     }
 }
-uint8_t get_color(void){
-	return color;
-}
-
 
 void color_start(void){
 	chThdCreateStatic(waProcessImage, sizeof(waProcessImage), NORMALPRIO, ProcessImage, NULL);
 	chThdCreateStatic(waCaptureImage, sizeof(waCaptureImage), NORMALPRIO, CaptureImage, NULL);
+}
+
+uint8_t get_color(void){
+	return color;
 }

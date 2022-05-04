@@ -24,14 +24,14 @@
 #include <chmtx.h>
 #include "leds.h"
 
-#define BLACK				0
-#define RED					1
-#define GREEN				2
-#define BLUE				3
-#define DISTANCE_TRESHOLD 	40
-#define RIGHT 				0
-#define LEFT				1
-#define NB_STEP_EACH_TURN	4
+//#define BLACK				0
+//#define RED					1
+//#define GREEN				2
+//#define BLUE				3
+//#define DISTANCE_TRESHOLD 	40
+//#define RIGHT 				0
+//#define LEFT				1
+//#define NB_STEP_EACH_TURN	4
 
 
 
@@ -104,8 +104,9 @@ int main(void)
         	go_foreward();
         	step_left = step_left - 1;
         }
-        else if(step_left == 0){
+        else{
         	//NEXT PLAYER TURN
+        	step_left = 0;
             stop();
         	leds_on();
         }
