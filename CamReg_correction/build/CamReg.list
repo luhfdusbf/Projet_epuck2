@@ -1431,9 +1431,9 @@ Disassembly of section .text:
  800120c:	0000      	movs	r0, r0
 	...
 
-08001210 <set_leds>:
+08001210 <leds_on>:
  8001210:	b510      	push	{r4, lr}
- 8001212:	4c0c      	ldr	r4, [pc, #48]	; (8001244 <set_leds+0x34>)
+ 8001212:	4c0c      	ldr	r4, [pc, #48]	; (8001244 <leds_on+0x34>)
  8001214:	b082      	sub	sp, #8
  8001216:	2101      	movs	r1, #1
  8001218:	6823      	ldr	r3, [r4, #0]
@@ -1446,7 +1446,7 @@ Disassembly of section .text:
  800122a:	9a01      	ldr	r2, [sp, #4]
  800122c:	6823      	ldr	r3, [r4, #0]
  800122e:	429a      	cmp	r2, r3
- 8001230:	d106      	bne.n	8001240 <set_leds+0x30>
+ 8001230:	d106      	bne.n	8001240 <leds_on+0x30>
  8001232:	2101      	movs	r1, #1
  8001234:	2003      	movs	r0, #3
  8001236:	b002      	add	sp, #8
@@ -1456,9 +1456,9 @@ Disassembly of section .text:
  8001244:	20000800 	.word	0x20000800
 	...
 
-08001250 <clearr_leds>:
+08001250 <leds_off>:
  8001250:	b510      	push	{r4, lr}
- 8001252:	4c0c      	ldr	r4, [pc, #48]	; (8001284 <clearr_leds+0x34>)
+ 8001252:	4c0c      	ldr	r4, [pc, #48]	; (8001284 <leds_off+0x34>)
  8001254:	b082      	sub	sp, #8
  8001256:	6823      	ldr	r3, [r4, #0]
  8001258:	9301      	str	r3, [sp, #4]
@@ -1471,7 +1471,7 @@ Disassembly of section .text:
  800126a:	9a01      	ldr	r2, [sp, #4]
  800126c:	6823      	ldr	r3, [r4, #0]
  800126e:	429a      	cmp	r2, r3
- 8001270:	d106      	bne.n	8001280 <clearr_leds+0x30>
+ 8001270:	d106      	bne.n	8001280 <leds_off+0x30>
  8001272:	2100      	movs	r1, #0
  8001274:	2003      	movs	r0, #3
  8001276:	b002      	add	sp, #8
@@ -1482,9 +1482,9 @@ Disassembly of section .text:
 	...
 
 08001290 <main>:
- 8001290:	b570      	push	{r4, r5, r6, lr}
+ 8001290:	b530      	push	{r4, r5, lr}
  8001292:	4b29      	ldr	r3, [pc, #164]	; (8001338 <main+0xa8>)
- 8001294:	b082      	sub	sp, #8
+ 8001294:	b083      	sub	sp, #12
  8001296:	681b      	ldr	r3, [r3, #0]
  8001298:	9301      	str	r3, [sp, #4]
  800129a:	f007 fd29 	bl	8008cf0 <halInit>
@@ -1501,45 +1501,45 @@ Disassembly of section .text:
  80012c4:	f44f 60fa 	mov.w	r0, #2000	; 0x7d0
  80012c8:	f006 faba 	bl	8007840 <chThdSleep>
  80012cc:	f000 fa00 	bl	80016d0 <get_distance>
- 80012d0:	4606      	mov	r6, r0
+ 80012d0:	4605      	mov	r5, r0
  80012d2:	f000 f935 	bl	8001540 <get_color>
- 80012d6:	2e27      	cmp	r6, #39	; 0x27
- 80012d8:	4605      	mov	r5, r0
- 80012da:	dd0d      	ble.n	80012f8 <main+0x68>
- 80012dc:	2c00      	cmp	r4, #0
- 80012de:	dc06      	bgt.n	80012ee <main+0x5e>
- 80012e0:	2c00      	cmp	r4, #0
- 80012e2:	d1ef      	bne.n	80012c4 <main+0x34>
- 80012e4:	f000 f9a4 	bl	8001630 <stop>
- 80012e8:	f7ff ff92 	bl	8001210 <set_leds>
- 80012ec:	e7ea      	b.n	80012c4 <main+0x34>
- 80012ee:	3c01      	subs	r4, #1
- 80012f0:	f000 f9b6 	bl	8001660 <go_foreward>
- 80012f4:	b264      	sxtb	r4, r4
- 80012f6:	e7e5      	b.n	80012c4 <main+0x34>
- 80012f8:	2802      	cmp	r0, #2
- 80012fa:	d016      	beq.n	800132a <main+0x9a>
- 80012fc:	2801      	cmp	r0, #1
- 80012fe:	d00d      	beq.n	800131c <main+0x8c>
- 8001300:	2803      	cmp	r0, #3
- 8001302:	d1ed      	bne.n	80012e0 <main+0x50>
- 8001304:	f000 f994 	bl	8001630 <stop>
- 8001308:	f7ff ff82 	bl	8001210 <set_leds>
- 800130c:	2001      	movs	r0, #1
- 800130e:	f001 fb8f 	bl	8002a30 <set_body_led>
- 8001312:	f44f 707a 	mov.w	r0, #1000	; 0x3e8
- 8001316:	f006 fa93 	bl	8007840 <chThdSleep>
- 800131a:	e7fa      	b.n	8001312 <main+0x82>
- 800131c:	f7ff ff98 	bl	8001250 <clearr_leds>
- 8001320:	4628      	mov	r0, r5
- 8001322:	f000 f94d 	bl	80015c0 <turn>
- 8001326:	2404      	movs	r4, #4
- 8001328:	e7cc      	b.n	80012c4 <main+0x34>
- 800132a:	f7ff ff91 	bl	8001250 <clearr_leds>
- 800132e:	2000      	movs	r0, #0
- 8001330:	f000 f946 	bl	80015c0 <turn>
- 8001334:	2404      	movs	r4, #4
- 8001336:	e7c5      	b.n	80012c4 <main+0x34>
+ 80012d6:	2d27      	cmp	r5, #39	; 0x27
+ 80012d8:	dd0d      	ble.n	80012f6 <main+0x66>
+ 80012da:	2c00      	cmp	r4, #0
+ 80012dc:	dc06      	bgt.n	80012ec <main+0x5c>
+ 80012de:	2c00      	cmp	r4, #0
+ 80012e0:	d1f0      	bne.n	80012c4 <main+0x34>
+ 80012e2:	f000 f9a5 	bl	8001630 <stop>
+ 80012e6:	f7ff ff93 	bl	8001210 <leds_on>
+ 80012ea:	e7eb      	b.n	80012c4 <main+0x34>
+ 80012ec:	3c01      	subs	r4, #1
+ 80012ee:	f000 f9b7 	bl	8001660 <go_foreward>
+ 80012f2:	b264      	sxtb	r4, r4
+ 80012f4:	e7e6      	b.n	80012c4 <main+0x34>
+ 80012f6:	2801      	cmp	r0, #1
+ 80012f8:	d016      	beq.n	8001328 <main+0x98>
+ 80012fa:	2802      	cmp	r0, #2
+ 80012fc:	d00d      	beq.n	800131a <main+0x8a>
+ 80012fe:	2803      	cmp	r0, #3
+ 8001300:	d1ed      	bne.n	80012de <main+0x4e>
+ 8001302:	f000 f995 	bl	8001630 <stop>
+ 8001306:	f7ff ff83 	bl	8001210 <leds_on>
+ 800130a:	2001      	movs	r0, #1
+ 800130c:	f001 fb90 	bl	8002a30 <set_body_led>
+ 8001310:	f44f 707a 	mov.w	r0, #1000	; 0x3e8
+ 8001314:	f006 fa94 	bl	8007840 <chThdSleep>
+ 8001318:	e7fa      	b.n	8001310 <main+0x80>
+ 800131a:	f7ff ff99 	bl	8001250 <leds_off>
+ 800131e:	2001      	movs	r0, #1
+ 8001320:	f000 f94e 	bl	80015c0 <turn>
+ 8001324:	2404      	movs	r4, #4
+ 8001326:	e7cd      	b.n	80012c4 <main+0x34>
+ 8001328:	f7ff ff92 	bl	8001250 <leds_off>
+ 800132c:	2000      	movs	r0, #0
+ 800132e:	f000 f947 	bl	80015c0 <turn>
+ 8001332:	2404      	movs	r4, #4
+ 8001334:	e7c6      	b.n	80012c4 <main+0x34>
+ 8001336:	bf00      	nop
  8001338:	20000800 	.word	0x20000800
  800133c:	00000000 	.word	0x00000000
 
@@ -1786,9 +1786,9 @@ Disassembly of section .text:
  80015c4:	b082      	sub	sp, #8
  80015c6:	6823      	ldr	r3, [r4, #0]
  80015c8:	9301      	str	r3, [sp, #4]
- 80015ca:	b1d8      	cbz	r0, 8001604 <turn+0x44>
- 80015cc:	2801      	cmp	r0, #1
- 80015ce:	d00d      	beq.n	80015ec <turn+0x2c>
+ 80015ca:	2801      	cmp	r0, #1
+ 80015cc:	d01a      	beq.n	8001604 <turn+0x44>
+ 80015ce:	b168      	cbz	r0, 80015ec <turn+0x2c>
  80015d0:	2000      	movs	r0, #0
  80015d2:	f001 fd4d 	bl	8003070 <left_motor_set_speed>
  80015d6:	9a01      	ldr	r2, [sp, #4]

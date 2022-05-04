@@ -6,8 +6,8 @@
 
 #define TURN_SPEED 175
 #define FOREWARD_SPEED 350
-  #define RIGHT 0
-          #define LEFT 1
+#define LEFT 0
+#define RIGHT 1
 #define DISTANCE_TRESHOLD 40
 
 void turn(int8_t DIRECTION){

@@ -81,38 +81,18 @@ static THD_FUNCTION(ProcessImage, arg) {
 				sum_green += (uint32_t)green[i];
 				sum_blue += (uint32_t)blue[i];
 		}
-		//Moyenne pas necessaire
-
-		if((sum_red>(sum_blue+EPSILON))&&((sum_green+EPSILON)<sum_red)){		//vert
+		if((sum_red>(sum_blue+EPSILON))&&((sum_green+EPSILON)<sum_red)){
 			color = RED;
-			/*palClearPad(GPIOD, GPIOD_LED1);
-			palSetPad(GPIOD, GPIOD_LED3);
-			palSetPad(GPIOD, GPIOD_LED5);
-			palSetPad(GPIOD, GPIOD_LED7);*/
 		}
-		else if(((sum_red+EPSILON)<sum_green)&&(sum_green>(sum_blue+EPSILON))){		//rouge
+		else if(((sum_red+EPSILON)<sum_green)&&(sum_green>(sum_blue+EPSILON))){
 			color = GREEN;
-			/*palSetPad(GPIOD, GPIOD_LED1);
-			palClearPad(GPIOD, GPIOD_LED3);
-			palSetPad(GPIOD, GPIOD_LED5);
-			palSetPad(GPIOD, GPIOD_LED7);*/
 		}
-		else if(((sum_red+EPSILON)<sum_blue)&&((sum_green+EPSILON)<sum_blue)){		//bleu
+		else if(((sum_red+EPSILON)<sum_blue)&&((sum_green+EPSILON)<sum_blue)){
 			color = BLUE;
-			/*palSetPad(GPIOD, GPIOD_LED1);
-			palSetPad(GPIOD, GPIOD_LED3);
-			palClearPad(GPIOD, GPIOD_LED5);
-			palSetPad(GPIOD, GPIOD_LED7);*/
 		}
-		else{		//noir
+		else{
 			color = BLACK;
-			/*palSetPad(GPIOD, GPIOD_LED1);
-			palSetPad(GPIOD, GPIOD_LED3);
-			palSetPad(GPIOD, GPIOD_LED5);
-			palClearPad(GPIOD, GPIOD_LED7);*/
 		}
-		//chprintf((BaseSequentialStream *)&SD3, "%R=%d G=%d B=%d \r\n\n",
-        //        sum_red, sum_green, sum_blue);
     }
 }
 uint8_t get_color(void){
