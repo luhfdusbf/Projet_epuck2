@@ -80,17 +80,17 @@ int main(void)
         wall_detected = (get_distance() < DISTANCE_TRESHOLD); //true if there is a wall_detected
         color = get_color();
 
-        if(wall_detected && color == RED){
+        if(wall_detected && (color == RED)){
         	leds_off();
         	turn(RIGHT);
         	step_left = NB_STEP_EACH_TURN;
         }
-        else if(wall_detected && color == GREEN){
+        else if(wall_detected && (color == GREEN)){
         	leds_off();
         	turn(LEFT);
         	step_left = NB_STEP_EACH_TURN;
         }
-        else if(wall_detected && color == BLUE){
+        else if(wall_detected && (color == BLUE)){
         	//END GAME
         	stop();
         	leds_on();
@@ -99,7 +99,7 @@ int main(void)
         		chThdSleepMilliseconds(1000);
         	}
         }
-        else if(!wall_detected && step_left > 0){
+        else if(!wall_detected && (step_left > 0)){
         	//FOREWARD
         	go_foreward();
         	step_left = step_left - 1;
