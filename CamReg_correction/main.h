@@ -5,10 +5,17 @@
 extern "C" {
 #endif
 
+/***includes used in all the project***/
 #include "camera/dcmi_camera.h"
 #include "msgbus/messagebus.h"
 #include "parameter/parameter.h"
-
+#include <camera/po8030.h>
+#include "ch.h"
+#include "hal.h"
+#include <stdio.h>
+#include <motors.h>
+#include <i2c_bus.h>
+#include "sensors\VL53L0X\VL53L0X.h"
 
 /***constants for the differents parts of the project***/
 #define COLOR_MARGIN	2000	//margin over 19200

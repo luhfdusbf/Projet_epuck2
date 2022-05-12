@@ -1,7 +1,4 @@
-#include "ch.h"
-#include "hal.h"
 #include <main.h>
-#include <camera/po8030.h>
 #include <color.h>
 
 #define NB_POINTS		300

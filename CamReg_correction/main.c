@@ -1,36 +1,22 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <math.h>
+#include <main.h>
+#include <distance.h>
+#include <moteur.h>
+#include <color.h>
 
 #include "ch.h"
 #include "hal.h"
+
 #include "memory_protection.h"
-//#include <usbcfg.h>
-#include <main.h>
-#include <motors.h>
-#include <camera/po8030.h>
-//#include <chprintf.h>
-
-#include <color.h>
-
-#include <distance.h>
-#include <moteur.h>
-//#include <i2c_bus.h>
-#include "msgbus\messagebus.h"
-#include "motors.h"
-//#include "sensors\proximity.h"
-#include "sensors\VL53L0X\VL53L0X.h"
-#include <chmtx.h>
 #include "leds.h"
 
-void leds_on(){
+
+void leds_on(void){
 	set_led(LED3,1);
 	set_led(LED5,1);
 	set_led(LED7,1);
 }
 
-void leds_off(){
+void leds_off(void){
 	set_led(LED3,0);
 	set_led(LED5,0);
 	set_led(LED7,0);

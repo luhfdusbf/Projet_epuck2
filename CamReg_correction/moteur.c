@@ -1,16 +1,11 @@
-#include <distance.h>
-#include <color.h>
+#include <main.h>
 #include <moteur.h>
-#include "ch.h"
-#include <leds.h>
+#include <distance.h>
 
 #define TURN_SPEED 175
 #define FOREWARD_SPEED 350
-#define LEFT 0
-#define RIGHT 1
-#define DISTANCE_TRESHOLD 40
 
-static bool wall_detected = 0;
+static bool foreward = 0;
 
 static THD_WORKING_AREA(waStop_detection, 256);
 static THD_FUNCTION(Stop_detection, arg) {
@@ -18,13 +13,10 @@ static THD_FUNCTION(Stop_detection, arg) {
     chRegSetThreadName(__FUNCTION__);
     (void)arg;
     while(1){
-    	if(get_distance() < DISTANCE_TRESHOLD){
-    		wall_detected=TRUE;
+    	if((get_distance() < DISTANCE_TRESHOLD)&&(foreward)){
+    		stop();
     	}
-    	else{
-    		wall_detected=FALSE;
-    	}
-    	chThdSleepMilliseconds(10);
+    	chThdSleepMilliseconds(100);
     }
 }
 
@@ -33,25 +25,23 @@ void stop_detection_start(void){
 }
 
 void go_foreward(){
-	if(!wall_detected){
-		left_motor_set_speed(FOREWARD_SPEED);
-		right_motor_set_speed(FOREWARD_SPEED);
-	}
-	else{
-		stop();
-	}
+	foreward = 1;
+	left_motor_set_speed(FOREWARD_SPEED);
+	right_motor_set_speed(FOREWARD_SPEED);
 }
 
 void stop(){
+	foreward = 0;
 	left_motor_set_speed(0);
 	right_motor_set_speed(0);
 }
 
 void turn(int8_t DIRECTION){
-	if(DIRECTION == RIGHT){
+	foreward = 0;
+	if(DIRECTION == LEFT){
 		left_motor_set_speed(-TURN_SPEED);
 		right_motor_set_speed(TURN_SPEED); }
-	else if(DIRECTION == LEFT){
+	else if(DIRECTION == RIGHT){
 		left_motor_set_speed(TURN_SPEED);
 		right_motor_set_speed(-TURN_SPEED); }
 	else{

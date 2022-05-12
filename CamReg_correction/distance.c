@@ -1,6 +1,6 @@
-#include <stdint.h>
-#include "ch.h"
+#include <main.h>
 #include <distance.h>
+
 
 static int16_t distance = 100; //millimeters
 
