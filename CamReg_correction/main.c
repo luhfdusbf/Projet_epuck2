@@ -38,7 +38,7 @@ int main(void)
 	po8030_start();
 	//initialyse the motors
 	motors_init();
-	//stars the threads (distance and color measure)
+	//stars the threads (distance,color measure, and anti-colision control)
 	distance_start();
 	color_start();
 	stop_detection_start();

@@ -2,7 +2,7 @@
 #include <distance.h>
 
 
-static int16_t distance = 100; //millimeters
+static int16_t distance = 100; //millimeters (initialisation)
 
 static THD_WORKING_AREA(waDistance, 256);
 static THD_FUNCTION(Distance, arg) {

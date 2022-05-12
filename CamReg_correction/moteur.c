@@ -2,8 +2,12 @@
 #include <moteur.h>
 #include <distance.h>
 
-#define TURN_SPEED 175
-#define FOREWARD_SPEED 350
+
+#define DISTANCE_BETWEEN_WEELS 52 //measured on the robot
+#define DISTANCE_PER_STEP 0.13 //find in the wiki
+#define FREQUENCY 0.5 //in Hz
+#define TURN_SPEED ((DISTANCE_BETWEEN_WEELS*3.14/4)/DISTANCE_PER_STEP*FREQUENCY) //in step per second
+#define FOREWARD_SPEED (CASE_SIZE/DISTANCE_PER_STEP*FREQUENCY) //in step per second
 
 static bool foreward = 0;
 
@@ -13,7 +17,7 @@ static THD_FUNCTION(Stop_detection, arg) {
     chRegSetThreadName(__FUNCTION__);
     (void)arg;
     while(1){
-    	if((get_distance() < DISTANCE_TRESHOLD)&&(foreward)){
+    	if((get_distance() < DISTANCE_TRESHOLD)&&(foreward)){ //if there is a wall and the robot is going foreward
     		stop();
     	}
     	chThdSleepMilliseconds(100);

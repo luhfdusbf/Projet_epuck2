@@ -62,7 +62,7 @@ static THD_FUNCTION(ProcessImage, arg) {
 			//5 last bits
 			blue[i/2] = (img_buff_ptr[i+1]&0b00011111) * 2;
 		}
-		//sum on every pixels, better than mean
+		//sum on every pixels
 		uint32_t sum_red = 0;
 		uint32_t sum_green = 0;
 		uint32_t sum_blue = 0;
